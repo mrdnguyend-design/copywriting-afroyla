@@ -1,0 +1,525 @@
+# Sitcom-Style Email Creation SOP
+
+**Purpose:** Guide chatbot to transform sales emails into entertaining, story-driven content that resembles a sitcom episode.
+
+**Version:** 1.0  
+**Last Updated:** January 2026
+
+---
+
+## Table of Contents
+
+1. [Core Principles](#core-principles)
+2. [Input Collection Phase](#input-collection-phase)
+3. [Story Structure Development](#story-structure-development)
+4. [Email Composition](#email-composition)
+5. [Quality Assurance](#quality-assurance)
+6. [Output Delivery](#output-delivery)
+7. [Appendix: Templates & Examples](#appendix-templates--examples)
+
+---
+
+## Core Principles
+
+### 1. Emotional Fidelity > Factual Fidelity
+- Recreate the **emotional experience** for readers, not a factual report
+- Use creative license to adjust context, location, or minor details
+- Focus: How did it **feel**? Not just what happened.
+
+### 2. Show, Don't Tell
+- Create scenes with action happening in real-time
+- ❌ Wrong: "I went for a run"
+- ✅ Right: "I was tying my running shoes"
+
+### 3. Every Character Needs a Role
+- Characters must contribute through dialogue, comedy, or conflict
+- If a character doesn't serve the story → remove them
+- No passive observers
+
+---
+
+## Input Collection Phase
+
+### Step 1.1: Gather Core Information
+
+**Chatbot Prompt Template:**
+```
+To create a compelling Sitcom-style email, I need:
+
+1. **The Event/Story:** What happened? (Can be mundane: grocery shopping, client meeting, product experience)
+2. **Emotional Peak:** What moment made you feel [funny/embarrassed/surprised/worried]?
+3. **Product/Service:** What are you promoting?
+
+Optional but helpful:
+- Who else was involved?
+- What dialogue or reaction stood out?
+```
+
+### Step 1.2: Analyze Emotional Architecture
+
+**Chatbot Internal Analysis (don't show to user):**
+```
+PRIMARY_EMOTION = [humor, embarrassment, surprise, anxiety]
+TWIST_POTENTIAL = [which detail can be the punchline?]
+CHARACTER_TRAIT = [overconfident, naive, reckless, skeptical]
+CONTRAST_OPPORTUNITY = [expectation vs. reality]
+```
+
+**Decision Matrix:**
+| If user mentions... | Emotional angle | Character setup |
+|---------------------|-----------------|-----------------|
+| "I thought I could..." | Overconfidence | Confident protagonist |
+| "I didn't expect..." | Surprise | Naive protagonist |
+| "They warned me but..." | Recklessness | Stubborn protagonist |
+
+---
+
+## Story Structure Development
+
+### Step 2.1: Character Development
+
+**Mandatory Elements Checklist:**
+- [ ] Protagonist has clear personality trait (overconfident/naive/reckless)
+- [ ] At least ONE supporting character present
+- [ ] Supporting character has specific action/dialogue
+- [ ] Character dynamic creates tension or humor
+
+**Character Template:**
+```markdown
+**PROTAGONIST:** [Name] - [Trait: e.g., "overconfident"]
+**SUPPORTING:** [Name] - [Role: e.g., "skeptical spouse"]
+**KEY ACTION:** [What does supporting character DO in this scene?]
+**DYNAMIC:** [How do they contrast with protagonist?]
+```
+
+**Examples of Good Supporting Character Actions:**
+- Spouse raises eyebrow skeptically while sipping coffee
+- Child spills milk while parent explains plan
+- Friend says "Uh-huh" with obvious doubt
+- Colleague slowly backs away from your desk
+
+### Step 2.2: Dialogue Construction
+
+**Dialogue Rules:**
+1. Each dialogue exchange = minimum 2-3 back-and-forth lines
+2. Information must flow THROUGH conversation (not narrative exposition)
+3. Use repetition for comedic rhythm
+
+**Conversion Formula:**
+```
+❌ NARRATIVE (Wrong):
+"I hadn't run in months and was worried about it."
+
+✅ DIALOGUE (Right):
+Wife: "You're going running? When was the last time you ran?"
+Me: "March."
+Wife: "March... of last year?"
+Me: "That's... that's beside the point."
+```
+
+**Repetition Technique Example:**
+```
+Child: "Are you sure, Dad?"
+Me: "Absolutely sure."
+Child: "Like... really sure?"
+Me: "Yes, really sure."
+[Narrator: I was not sure.]
+```
+
+### Step 2.3: Strategic Information Withholding
+
+**Decision Tree:**
+```
+CRITICAL INFO → Does revealing early kill surprise?
+    ├─ YES → Hide until twist moment
+    └─ NO → Can mention early
+
+CONTEXT DETAIL → Does it add to story?
+    ├─ NO → Delete it
+    └─ YES → Does it complicate unnecessarily?
+            ├─ YES → Simplify it
+            └─ NO → Keep it
+```
+
+**What to Remove:**
+- Complex neighborhood layouts
+- Exact timestamps (unless creating urgency)
+- Technical specifications
+- Backstory tangents
+- Multiple location changes
+
+**What to Keep:**
+- Emotional details (sweaty palms, heart racing)
+- Sensory information (dark street, cold air)
+- Character reactions (eye rolls, sighs)
+- Dialogue that builds tension
+
+**Foreshadowing Warning:**
+- ❌ Don't build expectation of physical confrontation if payoff is just a text message
+- ❌ Don't promise bear attack if twist is just bear warning
+- ✅ Keep stakes proportional to actual outcome
+
+---
+
+## Email Composition
+
+### The 5-Paragraph Structure
+
+#### PARAGRAPH 1: Cold Open - Action First
+**Format:** `[Specific time] + [Action in progress]`  
+**Length:** 2-3 sentences  
+**Purpose:** Drop reader into scene immediately
+
+**Template:**
+```
+[TIME], I was [SPECIFIC ACTION]. [SUPPORTING CHARACTER] [SPECIFIC REACTION].
+
+Example:
+"8:47 PM last night, I was lacing up my running shoes. My wife looked up from the couch with that expression—the one that says 'I give this five minutes.'"
+```
+
+**Rules:**
+- No generic opens like "I love my new life in..."
+- Start with concrete time/action
+- Introduce character dynamic immediately
+
+---
+
+#### PARAGRAPH 2: Character Setup
+**Format:** Dialogue establishing protagonist's overconfidence  
+**Length:** 4-6 sentences (2-3 exchanges)  
+**Purpose:** Set up the fall
+
+**Template:**
+```
+[Supporting character]: "[Skeptical question]"
+[Protagonist]: "[Overconfident response]"
+[Narrator comment showing self-delusion]
+
+Example:
+Wife: "When was the last time you ran?"
+Me: "That's not important. I'm in great shape."
+Wife: "You get winded going up the stairs."
+Me: "Those are steep stairs."
+[I genuinely believed this.]
+```
+
+---
+
+#### PARAGRAPH 3: Action Sequence
+**Format:** Vivid action description + sensory details  
+**Length:** 3-4 sentences  
+**Purpose:** Build tension through concrete details
+
+**Template:**
+```
+[Time passes]. [Physical state]. [Environmental details]. [Growing discomfort].
+
+Example:
+"Ten minutes later, I was wheezing down a dark trail. Lungs burning. Legs wobbling like a newborn deer. The path looked a lot longer than I remembered."
+```
+
+**Sensory Detail Bank:**
+- Visual: dark, shadowy, looming, glowing
+- Audio: wheezing, pounding, rustling, silence
+- Physical: burning, wobbling, trembling, racing
+- Texture: sweat-soaked, ice-cold, rough, slippery
+
+---
+
+#### PARAGRAPH 4: The Twist
+**Format:** Unexpected event + immediate reaction  
+**Length:** 2-3 sentences  
+**Purpose:** Deliver the punchline
+
+**Template:**
+```
+[Unexpected event]. [Physical reaction]. [Optional: Character dialogue].
+
+Example:
+"My phone buzzed. Text from neighbor: 'Bear spotted near the trails. Stay inside.' I was not inside."
+```
+
+**Twist Calibration:**
+- Match intensity to buildup
+- Physical comedy > existential dread
+- Embarrassment > danger
+- Irony > tragedy
+
+---
+
+#### PARAGRAPH 5: The Pivot to Product
+**Format:** Character-based transition + product connection  
+**Length:** 3-5 sentences  
+**Purpose:** Sell without breaking character
+
+**BANNED PHRASES:**
+- ❌ "So what does this have to do with..."
+- ❌ "You might be wondering how this relates to..."
+- ❌ "The point is..."
+- ❌ "Let me tell you why this matters..."
+
+**Approved Pivot Techniques:**
+
+**A. The Misunderstanding Pivot**
+```
+Wife: "Did you make it back okay?"
+Me: "Oh, I wasn't talking about the run."
+Wife: "...what?"
+Me: "I'm talking about email marketing. See, when you..."
+[Product link]
+```
+
+**B. The Callback Pivot**
+```
+"Here's the thing about overconfidence: it applies to marketing too. Most brands think they can just... [product benefit]. But there's a better way: [CTA]"
+```
+
+**C. The Direct Parallel Pivot**
+```
+"That warning text saved me from disaster. Just like this [product] saves you from [problem]. Minus the bears. [CTA]"
+```
+
+---
+
+## Quality Assurance
+
+### Automated Validation Checklist
+
+**Run this checklist before finalizing:**
+
+```markdown
+## Structure Check
+- [ ] Opens with specific time + action (not abstract intro)
+- [ ] Has at least one supporting character
+- [ ] Supporting character performs specific action
+- [ ] Contains minimum 2 dialogue exchanges (4+ total lines)
+- [ ] No information revealed too early
+- [ ] Twist proportional to buildup
+- [ ] Product pivot uses character/humor (not mechanical transition)
+
+## Content Quality
+- [ ] Emotional fidelity prioritized over factual accuracy
+- [ ] Shows action (not tells about action)
+- [ ] Every character has purpose
+- [ ] No complex/unnecessary details
+- [ ] Sensory language present
+- [ ] Maintains consistent voice
+
+## Banned Elements
+- [ ] No "So what does this have to do with..." phrases
+- [ ] No characters who appear then vanish
+- [ ] No over-promising (foreshadowing mismatch)
+- [ ] No generic opening paragraphs
+- [ ] No pure narrative (must have dialogue)
+```
+
+### Diagnostic Questions
+
+**If email feels flat:**
+1. Where's the dialogue? Add 2+ exchanges
+2. Where's the supporting character's action? Make them DO something
+3. Where's the sensory detail? Add physical sensations
+
+**If transition feels awkward:**
+1. Is the pivot using character voice? Make it conversational
+2. Is it too direct? Add humor/misdirection first
+3. Does it match the story's tone? Adjust formality
+
+**If twist falls flat:**
+1. Did you telegraph it? Remove foreshadowing
+2. Is the buildup too intense? Scale back danger signals
+3. Is the payoff too weak? Find bigger contrast
+
+---
+
+## Output Delivery
+
+### Final Output Format
+
+```markdown
+📧 **SUBJECT LINE:** [Intriguing/humorous subject, max 50 chars]
+
+---
+
+[Paragraph 1: Cold Open]
+
+[Paragraph 2: Character Setup]
+
+[Paragraph 3: Action Sequence]
+
+[Paragraph 4: The Twist]
+
+[Paragraph 5: Product Pivot + CTA]
+
+---
+
+📊 **STRUCTURE ANALYSIS:**
+- **Primary Emotion:** [humor/embarrassment/surprise]
+- **Twist Point:** Paragraph [4]
+- **Pivot Technique:** [Misunderstanding/Callback/Parallel]
+- **Character Dynamic:** [Overconfident protagonist + skeptical spouse]
+
+💡 **REFINEMENT OPTIONS:**
+Would you like me to:
+1. Add more humor/details?
+2. Change the twist point?
+3. Adjust the product transition?
+4. Try a different character dynamic?
+```
+
+### Handling Incomplete Input
+
+**If user provides minimal information:**
+```
+To create the best Sitcom-style email, I need a bit more context:
+
+**Critical Missing Info:**
+- Who else was present? (spouse/friend/colleague/child)
+- What did they say/do?
+- What specific moment felt [funny/awkward/surprising]?
+
+**Quick Example:**
+Instead of: "I went grocery shopping"
+Better: "I went grocery shopping and ran into my ex at the egg aisle. My 5-year-old loudly asked why I was sweating."
+
+With richer details, I can create a much more engaging story!
+```
+
+### Error Handling
+
+**Common Issues & Auto-Corrections:**
+
+| Issue Detected | Auto-Response |
+|----------------|---------------|
+| No dialogue present | "Adding dialogue exchange to bring scene to life" |
+| Supporting character has no action | "Giving [character] specific action/reaction" |
+| Transition too abrupt | "Softening pivot with character-based bridge" |
+| Foreshadowing mismatch | "Adjusting buildup to match actual payoff" |
+
+---
+
+## Appendix: Templates & Examples
+
+### Template Library
+
+#### Template A: The Overconfident Expert
+```markdown
+[Time], I was [doing something I claimed to master].
+
+Friend: "You sure about this?"
+Me: "[Overconfident claim]"
+Friend: "[Gentle skepticism]"
+Me: "[Double down on confidence]"
+
+[Action sequence showing mounting problems]
+
+[Unexpected consequence that proves them right]
+
+Friend: "So... how'd it go?"
+Me: "Actually, I wasn't talking about [original topic]. I was talking about [product]..."
+```
+
+#### Template B: The Interrupted Story
+```markdown
+[Time], [someone] asked me [innocent question].
+
+Me: "Well, let me tell you what happened..."
+[Start telling dramatic story]
+
+Them: [Interrupt with practical concern]
+Me: [Dismiss and continue]
+
+[Story builds to twist]
+
+Them: "Wait, what were we talking about again?"
+Me: "Oh, I'm not talking about [story topic]. I'm talking about [product]."
+```
+
+#### Template C: The Misunderstood Warning
+```markdown
+[Time], I decided to [seemingly simple action].
+
+Partner: "Did you [check obvious precaution]?"
+Me: "I don't need to [check]. I've got this."
+
+[Details showing increasing complexity/risk]
+
+[Warning/sign appears]
+[Too late - already committed]
+
+Partner: "[I told you so]"
+Me: "This is exactly why you need [product]..."
+```
+
+### Subject Line Formula
+
+**Framework:** `[Curiosity] + [Specificity]`
+
+**Good Examples:**
+- "So... I met a bear last night"
+- "My wife was right (don't tell her)"
+- "8:47 PM: A terrible decision"
+- "The eggs were NOT worth it"
+- "Why I'm banned from the grocery store"
+
+**Bad Examples:**
+- "You won't believe this!" (too generic)
+- "Important marketing lesson" (too business-y)
+- "My weekend story" (too vague)
+
+### Character Reaction Bank
+
+**Skeptical Reactions:**
+- Raised eyebrow
+- "Uh-huh" with long pause
+- Slow sip of coffee while staring
+- "If you say so..." trailing off
+- Heavy sigh
+- Looking at watch pointedly
+
+**Kid Reactions:**
+- Drops toy and stares
+- "Like really really sure?"
+- Nods sagely (inappropriately wise)
+- "Mom said you'd say that"
+- Continues playing, ignoring disaster
+- Announces observation to stranger
+
+**Spouse Reactions:**
+- "When was the last time you..."
+- Doesn't look up from phone
+- Hands you band-aids preemptively
+- "I'll get the first aid kit ready"
+- "How much is this going to cost?"
+
+---
+
+## Implementation Notes
+
+### For Chatbot Integration
+
+**System Prompt Addition:**
+```
+When creating Sitcom-style emails:
+1. Always collect: event, emotion, supporting character, product
+2. Structure: 5 paragraphs (cold open, setup, action, twist, pivot)
+3. Include: dialogue exchanges, sensory details, character actions
+4. Avoid: generic opens, mechanical transitions, banned phrases
+5. Validate: run checklist before output
+```
+
+**Key Differentiators from Regular Marketing Emails:**
+- Start with scene, not benefit
+- Show story, don't list features
+- Use humor, not urgency
+- Characters over statistics
+- Entertainment over information
+
+**Success Metrics:**
+- Reader engagement (finishes email)
+- Emotional response (smiles/laughs)
+- Brand recall (remembers story)
+- Click-through (curious about product)
+
+---

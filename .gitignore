@@ -1,0 +1,5 @@
+# Credentials & temp files
+scripts/.env
+scripts/node_modules/
+scripts/fetched-emails.json
+scripts/.last-fetch

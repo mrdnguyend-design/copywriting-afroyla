@@ -1,0 +1,14 @@
+{
+  "name": "afroyla-email-fetcher",
+  "version": "1.0.0",
+  "description": "Auto-fetch customer emails from Gmail via IMAP for Afroyla",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-emails.js"
+  },
+  "dependencies": {
+    "imapflow": "^1.0.171",
+    "mailparser": "^3.7.2",
+    "dotenv": "^16.4.7"
+  }
+}

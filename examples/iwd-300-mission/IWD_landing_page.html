@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bags of Change — Afroyla IWD Sale 2026</title>
+    <meta name="description"
+        content="This IWD, every Afroyla bag fights Type 2 Diabetes. 60% OFF everything. $5/order funds health coaching for Black women. March 6-8 only.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&family=Raleway:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        /* ═══════════════════════════════════════════
+           REPLO STYLE GUIDE & VARIABLES
+           ═══════════════════════════════════════════ */
+        :root {
+            --color-black: #0A0A0A;
+            --color-dark-gray: #1A1A1A;
+            --color-surface: #050505;
+            --color-gold: #C5A059;
+            --color-red: #B91D1D;
+            --color-green: #166534;
+            --color-white: #FFFFFF;
+            --color-border: rgba(197, 160, 89, 0.2);
+            --font-heading: 'Prata', serif;
+            --font-body: 'Raleway', sans-serif;
+            --container-width: 1200px;
+            --section-padding: 100px 20px;
+        }
+
+        /* ═══════════════════════════════════════════
+           RESET & BASE
+           ═══════════════════════════════════════════ */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--color-black);
+            color: var(--color-white);
+            font-family: var(--font-body);
+            font-size: 18px;
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--font-heading);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 400;
+        }
+
+        p {
+            margin-bottom: 16px;
+        }
+
+        /* ═══════════════════════════════════════════
+           REPLO GRID SYSTEM
+           ═══════════════════════════════════════════ */
+        .replo-section {
+            width: 100%;
+            padding: var(--section-padding);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .replo-container {
+            width: 100%;
+            max-width: var(--container-width);
+            margin: 0 auto;
+        }
+
+        .replo-grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        @media (max-width: 991px) {
+            .replo-grid-2 {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+
+            :root {
+                --section-padding: 60px 20px;
+            }
+        }
+
+        /* ═══════════════════════════════════════════
+           HELPERS
+           ═══════════════════════════════════════════ */
+        .text-gold {
+            color: var(--color-gold);
+        }
+
+        .text-red {
+            color: var(--color-red);
+        }
+
+        .text-green {
+            color: var(--color-green);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* ═══════════════════════════════════════════
+           BUTTONS
+           ═══════════════════════════════════════════ */
+        .cta-button {
+            display: inline-block;
+            background-color: var(--color-red);
+            color: var(--color-white);
+            padding: 20px 50px;
+            text-decoration: none;
+            font-family: var(--font-body);
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--color-red);
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: transparent;
+            color: var(--color-red);
+        }
+
+        /* ═══════════════════════════════════════════
+           S1: HERO
+           ═══════════════════════════════════════════ */
+        #hero {
+            min-height: 95vh;
+            background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%);
+            padding-top: 120px;
+        }
+
+        .hero-badge {
+            font-size: 14px;
+            letter-spacing: 4px;
+            color: var(--color-gold);
+            font-weight: 600;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 24px;
+        }
+
+        .hero-decision {
+            font-family: var(--font-heading);
+            font-size: clamp(32px, 5vw, 56px);
+            line-height: 1.15;
+            text-transform: none;
+            margin-bottom: 8px;
+        }
+
+        .hero-subtitle {
+            font-family: var(--font-body);
+            font-size: clamp(16px, 2.5vw, 22px);
+            font-weight: 300;
+            opacity: 0.7;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+        }
+
+        .hero-body {
+            font-size: clamp(16px, 2.5vw, 20px);
+            max-width: 750px;
+            margin: 0 auto 12px auto;
+            line-height: 1.7;
+            opacity: 0.9;
+        }
+
+        .hero-body-sub {
+            font-size: 16px;
+            max-width: 700px;
+            margin: 0 auto 24px auto;
+            opacity: 0.6;
+            line-height: 1.6;
+        }
+
+        .hero-offer {
+            font-family: var(--font-heading);
+            font-size: clamp(24px, 4vw, 36px);
+            color: var(--color-red);
+            font-weight: 400;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            text-transform: none;
+        }
+
+        @media (max-width: 991px) {
+            #hero {
+                padding-top: 80px;
+                min-height: auto;
+            }
+
+            .hero-badge {
+                font-size: 12px;
+                letter-spacing: 3px;
+            }
+        }
+
+        /* ═══════════════════════════════════════════
+           S2: 60% OFF
+           ═══════════════════════════════════════════ */
+        #deals {
+            background-color: var(--color-white);
+            color: var(--color-black);
+        }
+
+        #deals h2 {
+            color: var(--color-black);
+            font-size: clamp(32px, 5vw, 48px);
+            margin-bottom: 20px;
+        }
+
+        #deals p {
+            color: var(--color-black);
+            font-size: 18px;
+        }
+
+        .image-card {
+            overflow: hidden;
+            border: 1px solid var(--color-gold);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-card img {
+            width: 100%;
+            display: block;
+            filter: grayscale(10%);
+            transition: all 0.5s ease;
+        }
+
+        .image-card:hover img {
+            filter: grayscale(0%);
+            transform: scale(1.03);
+        }
+
+        .product-placeholder {
+            width: 100%;
+            aspect-ratio: 4/3;
+            background: #f0ece4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 14px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* ═══════════════════════════════════════════
+           S3: THE STORY
+           ═══════════════════════════════════════════ */
+        #story {
+            border-top: 1px solid var(--color-border);
+        }
+
+        .story-content {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .story-content h2 {
+            font-size: clamp(28px, 4vw, 42px);
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        .story-quote {
+            font-size: clamp(16px, 2.2vw, 18px);
+            line-height: 1.9;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .story-quote p {
+            margin-bottom: 20px;
+        }
+
+        .story-author {
+            margin-top: 32px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--color-gold);
+            letter-spacing: 1px;
+        }
+
+        /* ═══════════════════════════════════════════
+           S4: CYL2 IMPACT
+           ═══════════════════════════════════════════ */
+        #impact {
+            border-top: 1px solid var(--color-border);
+        }
+
+        .benefit-item {
+            padding: 20px 30px;
+            border: 1px solid var(--color-border);
+            background: rgba(255, 255, 255, 0.02);
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .benefit-item i {
+            font-size: 18px;
+            color: var(--color-green);
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .benefit-item p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        /* ═══════════════════════════════════════════
+           S5: GOAL + FORM
+           ═══════════════════════════════════════════ */
+        .goal-box {
+            border: 1px solid var(--color-border);
+            padding: 60px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .goal-box h2 {
+            font-size: clamp(24px, 4vw, 32px);
+            margin-bottom: 20px;
+        }
+
+        #signup {
+            background-color: #000;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid var(--color-gold);
+            padding: 50px;
+            background: var(--color-surface);
+        }
+
+        .form-container h2 {
+            font-size: clamp(20px, 3vw, 28px);
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .form-sub {
+            text-align: center;
+            opacity: 0.8;
+            margin-bottom: 30px;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 16px;
+            background: transparent;
+            border: 1px solid #333;
+            color: white;
+            margin-bottom: 20px;
+            font-family: var(--font-body);
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--color-gold);
+        }
+
+        .form-input::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .form-button {
+            display: block;
+            width: 100%;
+            background-color: var(--color-red);
+            color: var(--color-white);
+            padding: 20px;
+            border: 1px solid var(--color-red);
+            font-family: var(--font-body);
+            font-weight: 700;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .form-button:hover {
+            background-color: transparent;
+            color: var(--color-red);
+        }
+
+        .form-button.submitted {
+            background-color: var(--color-green);
+            border-color: var(--color-green);
+            cursor: default;
+        }
+
+        .form-button.submitted:hover {
+            background-color: var(--color-green);
+            color: white;
+        }
+
+        .signed-up-badge {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: var(--color-green);
+            font-size: 14px;
+            margin-top: 16px;
+        }
+
+        .form-legal {
+            text-align: center;
+            font-size: 12px;
+            opacity: 0.5;
+            margin-top: 20px;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+
+        .form-legal a {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        @media (max-width: 991px) {
+            .form-container {
+                padding: 30px 20px;
+            }
+        }
+
+        /* ═══════════════════════════════════════════
+           S6: PROOF
+           ═══════════════════════════════════════════ */
+        .proof-card {
+            background: var(--color-dark-gray);
+            padding: 30px;
+            border-left: 3px solid var(--color-gold);
+        }
+
+        .proof-card h3 {
+            font-size: 16px;
+            margin-bottom: 16px;
+            letter-spacing: 1px;
+        }
+
+        .proof-stats {
+            display: flex;
+            gap: 24px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .proof-stat {
+            text-align: center;
+            flex: 1;
+            min-width: 80px;
+        }
+
+        .proof-stat .num {
+            font-family: var(--font-heading);
+            font-size: 28px;
+            color: var(--color-gold);
+        }
+
+        .proof-stat .label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.6;
+            margin-top: 4px;
+        }
+
+        .proof-img-placeholder {
+            width: 100%;
+            aspect-ratio: 16/10;
+            background: var(--color-black);
+            border: 1px dashed rgba(255, 255, 255, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(255, 255, 255, 0.3);
+            font-size: 13px;
+            margin-top: 16px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* ═══════════════════════════════════════════
+           S7: REVIEWS
+           ═══════════════════════════════════════════ */
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .review-card {
+            text-align: center;
+            padding: 40px 30px;
+            border: 1px solid var(--color-border);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .stars {
+            color: var(--color-gold);
+            font-size: 16px;
+            margin-bottom: 16px;
+            letter-spacing: 2px;
+        }
+
+        .review-card blockquote {
+            font-size: 15px;
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            opacity: 0.9;
+        }
+
+        .review-card .author {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.6;
+        }
+
+        @media (max-width: 991px) {
+            .review-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ═══════════════════════════════════════════
+           S8: FINAL CTA
+           ═══════════════════════════════════════════ */
+        #final {
+            background: linear-gradient(to bottom, #7a1212 0%, #0a0a0a 100%);
+        }
+
+        #final h2 {
+            font-size: clamp(28px, 5vw, 48px);
+            margin-bottom: 20px;
+        }
+
+        /* ═══════════════════════════════════════════
+           COUNTDOWN
+           ═══════════════════════════════════════════ */
+        .countdown-wrap {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .countdown-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            opacity: 0.5;
+            margin-bottom: 10px;
+        }
+
+        .countdown {
+            display: inline-flex;
+            gap: 8px;
+            font-family: monospace;
+            font-size: clamp(24px, 4vw, 32px);
+            letter-spacing: 2px;
+            color: var(--color-gold);
+        }
+
+        .countdown .unit {
+            background: var(--color-dark-gray);
+            padding: 10px 14px;
+            min-width: 60px;
+            text-align: center;
+        }
+
+        .countdown .unit small {
+            display: block;
+            font-family: var(--font-body);
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.5;
+            margin-top: 4px;
+        }
+
+        .countdown-white .countdown {
+            color: var(--color-white);
+        }
+
+        .countdown-white .unit {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* ═══════════════════════════════════════════
+           FOOTER
+           ═══════════════════════════════════════════ */
+        footer {
+            padding: 40px 20px;
+            border-top: 1px solid #222;
+            text-align: center;
+            font-size: 12px;
+            opacity: 0.4;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ══════════════════════════════════════════════════
+     S1: THE HOOK
+     ══════════════════════════════════════════════════ -->
+    <section id="hero" class="replo-section">
+        <div class="replo-container text-center">
+            <span class="hero-badge">
+                <i class="fa-solid fa-ribbon"></i> International Women's Day · March 6–8
+            </span>
+            <h1 class="hero-decision">The Single Most Meaningful Event I've EVER Run.</h1>
+            <p class="hero-subtitle">As a Black-Owned Brand.</p>
+            <p class="hero-body">
+                This International Women's Day, every Afroyla bag sold funds a health program that helps Black women
+                prevent type 2 diabetes. The only program of its kind — built by Black women, for Black women. Approved
+                by the CDC.
+            </p>
+            <p class="hero-offer">Join us and get 60% OFF.</p>
+            <div><a href="#signup" class="cta-button">SAVE MY SPOT →</a></div>
+            <div class="countdown-wrap">
+                <div class="countdown-label">Sale starts in</div>
+                <div class="countdown" id="ct-hero">
+                    <div class="unit"><span id="d-hero">--</span><small>Days</small></div>
+                    <div class="unit"><span id="h-hero">--</span><small>Hours</small></div>
+                    <div class="unit"><span id="m-hero">--</span><small>Min</small></div>
+                    <div class="unit"><span id="s-hero">--</span><small>Sec</small></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+     S2: 60% OFF EVERYTHING
+     ══════════════════════════════════════════════════ -->
+    <section id="deals" class="replo-section">
+        <div class="replo-container">
+            <div class="replo-grid-2">
+                <div class="image-card">
+                    <!-- REPLACE: actual product image -->
+                    <div class="product-placeholder">
+                        [ Hero product image ]<br>
+                        <small>Replace with Afroyla bag photo</small>
+                    </div>
+                </div>
+                <div>
+                    <h2>60% OFF <span class="text-red">Everything.</span></h2>
+                    <p>Same premium leather. Same butter-soft quality. Same gold hardware.</p>
+                    <p>This is a <strong>private 3-day flash event.</strong> Not public. Not for everyone. Only for
+                        women on this list.</p>
+                    <p style="font-size: 22px; margin-top: 24px; color: var(--color-red); font-weight: 700;">
+                        60% OFF. No code needed.<br>March 6–8 only.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+     S3: THE STORY (Personal)
+     ══════════════════════════════════════════════════ -->
+    <section id="story" class="replo-section">
+        <div class="replo-container">
+            <div class="story-content">
+                <h2>Why This Cause.</h2>
+                <div class="story-quote">
+                    <p>"This one is personal.</p>
+                    <p>Type 2 diabetes runs in my family. The kind where you watch your mama count pills on a Sunday
+                        morning. The kind where your auntie skips dessert at Thanksgiving — and nobody says a
+                        word.</p>
+                    <p>I've watched the strongest women I know fight this quietly. And I've watched the system look
+                        the other way.</p>
+                    <p>Then I found CYL2 — the only diabetes prevention program in this country built from the
+                        ground up for Black women. Not adapted. Not translated. <strong>Created by Black women. For
+                            Black women.</strong> Recognized by the CDC.</p>
+                    <p>When I started Afroyla, I told myself this brand would stand for something bigger than
+                        beautiful bags.</p>
+                    <p><strong>We're proving it."</strong></p>
+                </div>
+                <p class="story-author">— Michelle, Founder of Afroyla</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+     S4: CYL2 IMPACT
+     ══════════════════════════════════════════════════ -->
+    <section id="impact" class="replo-section">
+        <div class="replo-container">
+            <h2 class="text-center" style="font-size: clamp(24px, 4vw, 36px); margin-bottom: 40px;">What This Program
+                Has Done</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="benefit-item">
+                    <i class="fa-solid fa-check-circle"></i>
+                    <p>Enrolled <strong>nearly 5,000 women</strong> since 2014 and reached millions through awareness
+                        campaigns</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-check-circle"></i>
+                    <p><strong>Cut participants' risk of developing type 2 diabetes by up to 58%</strong></p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-check-circle"></i>
+                    <p>Guided women to achieve <strong>5–7% weight loss</strong> and maintain <strong>150 minutes of
+                            weekly physical activity</strong></p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-check-circle"></i>
+                    <p>Saves each participant an estimated <strong>$4,552 in medical costs</strong> — in just 2 years
+                    </p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-check-circle"></i>
+                    <p><strong>2,200 women</strong> actively in the program today — online, accessible, free</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fa-solid fa-check-circle"></i>
+                    <p>Created the first <strong>culturally tailored curriculum recognized by the CDC</strong> —
+                        designed by and for Black women</p>
+                </div>
+            </div>
+            <p class="text-center" style="font-size: 22px; margin-top: 40px;">
+                <strong>This program works. And your purchase helps fund it.</strong>
+            </p>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+     S5: GOAL + FORM
+     ══════════════════════════════════════════════════ -->
+    <section id="signup" class="replo-section">
+        <div class="replo-container">
+
+            <div class="goal-box">
+                <h2>Our Goal: <span class="text-gold">$2,500</span></h2>
+                <p>Afroyla is committing <strong>$1,000 upfront</strong> to the BWHI CYL2 program. On top of that, we're
+                    donating <strong>$5 from every order</strong> placed during International Women's Day (March 6–8).
+                </p>
+                <p style="opacity: 0.7;">With your support, we can reach our $2,500 goal and make a real impact on Black
+                    women's health.</p>
+            </div>
+
+            <div class="form-container">
+                <h2>JOIN OUR <span class="text-gold">SPECIAL IWD EVENT</span></h2>
+                <p class="form-sub">Be the first to know when the 60% OFF sale goes live. Plus, get exclusive updates on
+                    how we're making a difference together. You in?</p>
+                <form id="boc-form">
+                    <input type="text" class="form-input" placeholder="First Name" required>
+                    <input type="email" class="form-input" placeholder="Email" required>
+                    <input type="tel" class="form-input" placeholder="Phone Number">
+                    <button type="submit" class="form-button" id="form-btn">SAVE MY SPOT →</button>
+                </form>
+                <div class="signed-up-badge">
+                    <i class="fa-solid fa-circle" style="font-size: 8px;"></i>
+                    <span><span id="signup-count">2,847</span> women already signed up</span>
+                </div>
+                <p class="form-legal">
+                    By submitting, you consent to receive informational (e.g., order updates) and/or marketing texts
+                    (e.g., cart reminders) from Afroyla including texts sent by autodialer. Consent is not a condition
+                    of purchase. Msg &amp; data rates may apply. Msg frequency varies. Unsubscribe at any time by
+                    replying STOP or clicking the unsubscribe link (where available). <a href="#">Privacy Policy</a>
+                    &amp; <a href="#">Terms</a>.
+                </p>
+                <div class="countdown-wrap" style="margin-top: 24px;">
+                    <div class="countdown-label">Sale starts in</div>
+                    <div class="countdown" id="ct-form">
+                        <div class="unit"><span id="d-form">--</span><small>Days</small></div>
+                        <div class="unit"><span id="h-form">--</span><small>Hours</small></div>
+                        <div class="unit"><span id="m-form">--</span><small>Min</small></div>
+                        <div class="unit"><span id="s-form">--</span><small>Sec</small></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+     S6: THE PROOF
+     ══════════════════════════════════════════════════ -->
+    <section id="proof" class="replo-section">
+        <div class="replo-container">
+            <div class="replo-grid-2">
+                <div>
+                    <h2 style="font-size: clamp(28px, 4vw, 42px); margin-bottom: 20px;">We Keep Our Word. ✊</h2>
+                    <p>Last time we did this — <strong>MLK Weekend, January 2026.</strong></p>
+                    <p class="text-gold" style="font-size: 24px; margin: 16px 0; font-family: var(--font-heading);">
+                        200 orders. $2,000 donated to Black Girls CODE.
+                    </p>
+                    <p><strong>Mission complete.</strong></p>
+                    <p style="margin-top: 20px; opacity: 0.8;">
+                        When we say $5 from every order goes to BWHI — <strong>we mean it.</strong>
+                    </p>
+                    <a href="#signup" class="cta-button">JOIN THE MISSION →</a>
+                </div>
+                <div>
+                    <div class="proof-card">
+                        <h3><i class="fa-solid fa-receipt" style="margin-right: 8px;"></i> MLK WEEKEND — MISSION
+                            COMPLETE</h3>
+                        <div class="proof-stats">
+                            <div class="proof-stat">
+                                <div class="num">200</div>
+                                <div class="label">Orders</div>
+                            </div>
+                            <div class="proof-stat">
+                                <div class="num">$2,000</div>
+                                <div class="label">Donated</div>
+                            </div>
+                            <div class="proof-stat">
+                                <div class="num">BGC</div>
+                                <div class="label">Recipient</div>
+                            </div>
+                        </div>
+                        <!-- REPLACE: Receipt screenshot -->
+                        <div class="proof-img-placeholder">
+                            [ Donation receipt image ]<br>
+                            <small>Official receipt — Black Girls CODE, Jan 2026</small>
+                        </div>
+                        <!-- REPLACE: Thank you letter -->
+                        <div class="proof-img-placeholder">
+                            [ Thank you letter from Black Girls CODE ]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+     S7: REVIEWS
+     ══════════════════════════════════════════════════ -->
+    <section id="reviews" class="replo-section" style="background-color: var(--color-surface);">
+        <div class="replo-container">
+            <h2 class="text-center" style="font-size: clamp(24px, 4vw, 36px); margin-bottom: 50px;">Don't Just Take Our
+                Word For It</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <div class="stars">★ ★ ★ ★ ★</div>
+                    <blockquote>"I love purses and have a huge collection of other folks purses. Once I discovered
+                        Afroyla I haven't worn any of my other ones!! If you want high quality leather bags at
+                        reasonable prices, check out Afroyla!!"</blockquote>
+                    <div class="author">— Jasmine T.</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★ ★ ★ ★ ★</div>
+                    <blockquote>"This is my second purse from Afroyla. Love it just as much as the first. Delivery time
+                        wasn't long at all. Customer service really enjoys their part of the process."</blockquote>
+                    <div class="author">— Nicole M.</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★ ★ ★ ★ ★</div>
+                    <blockquote>"My tote bag is beautiful! The matching wallet is just as beautiful. I'm so glad I
+                        decided to order. The material feels great, tote is spacious and appears sturdy."</blockquote>
+                    <div class="author">— Keisha R.</div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="#signup" class="cta-button">SAVE MY SPOT →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+     S8: FINAL CTA
+     ══════════════════════════════════════════════════ -->
+    <section id="final" class="replo-section">
+        <div class="replo-container text-center">
+            <h2>Help Us Raise $2,500 for BWHI. 🎗️</h2>
+            <p style="font-size: 20px;">60% OFF everything. $5/order funds the CYL2 program. 3 days only.</p>
+            <p style="margin-top: 20px;"><strong>But only if you're on the list.</strong></p>
+            <p style="opacity: 0.7;">No signup. No access.</p>
+            <div><a href="#signup" class="cta-button">COUNT ME IN →</a></div>
+            <div class="countdown-wrap countdown-white">
+                <div class="countdown-label">Sale starts in</div>
+                <div class="countdown" id="ct-final">
+                    <div class="unit"><span id="d-final">--</span><small>Days</small></div>
+                    <div class="unit"><span id="h-final">--</span><small>Hours</small></div>
+                    <div class="unit"><span id="m-final">--</span><small>Min</small></div>
+                    <div class="unit"><span id="s-final">--</span><small>Sec</small></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>AFROYLA © 2026 · International Women's Day Mission</footer>
+
+    <!-- ══════════════════════════════════════════════════
+     JAVASCRIPT
+     ══════════════════════════════════════════════════ -->
+    <script>
+        // ── COUNTDOWN ──
+        var TARGET = new Date('2026-03-06T10:00:00-05:00').getTime();
+        var sets = [
+            ['d-hero', 'h-hero', 'm-hero', 's-hero'],
+            ['d-form', 'h-form', 'm-form', 's-form'],
+            ['d-final', 'h-final', 'm-final', 's-final']
+        ];
+        function tick() {
+            var diff = TARGET - Date.now();
+            if (diff <= 0) {
+                document.querySelectorAll('.countdown').forEach(function (el) {
+                    el.innerHTML = '<span style="font-family:var(--font-heading);font-size:inherit;color:var(--color-gold);">SALE IS LIVE!</span>';
+                });
+                return;
+            }
+            var d = Math.floor(diff / 86400000);
+            var h = Math.floor((diff % 86400000) / 3600000);
+            var m = Math.floor((diff % 3600000) / 60000);
+            var s = Math.floor((diff % 60000) / 1000);
+            sets.forEach(function (ids) {
+                var el = [document.getElementById(ids[0]), document.getElementById(ids[1]),
+                document.getElementById(ids[2]), document.getElementById(ids[3])];
+                var vals = [d, h, m, s];
+                el.forEach(function (e, i) { if (e) e.textContent = vals[i] < 10 ? '0' + vals[i] : vals[i]; });
+            });
+        }
+        tick();
+        setInterval(tick, 1000);
+
+        // ── FORM ──
+        document.getElementById('boc-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var btn = document.getElementById('form-btn');
+            btn.textContent = '✅ YOU\'RE IN!';
+            btn.classList.add('submitted');
+            btn.disabled = true;
+            var c = document.getElementById('signup-count');
+            var n = parseInt(c.textContent.replace(/,/g, ''));
+            c.textContent = (n + 1).toLocaleString();
+        });
+
+        // ── SMOOTH SCROLL ──
+        document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+            a.addEventListener('click', function (e) {
+                e.preventDefault();
+                var t = document.querySelector(this.getAttribute('href'));
+                if (t) t.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

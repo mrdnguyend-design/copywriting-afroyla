@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "data": {
+    "revenue": {
+      "campaign_revenue": 0,
+      "automation_revenue": 0,
+      "flow_revenue": 193779.59,
+      "keyword_revenue": 40500.59,
+      "response_revenue": 359.09,
+      "desktop_popup_opt_in_revenue": 0,
+      "mobile_popup_opt_in_revenue": 0,
+      "desktop_block_popup_opt_in_revenue": 0,
+      "mobile_block_popup_opt_in_revenue": 0,
+      "shopify_checkout_revenue": 0,
+      "opt_in_revenue": 775.45,
+      "double_opt_in_revenue": 0,
+      "partner_api_revenue": 0,
+      "klaviyo_form_revenue": 0,
+      "total": 235414.72
+    }
+  }
+}

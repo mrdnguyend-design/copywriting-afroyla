@@ -1,0 +1,188 @@
+{
+  "acquisition": {
+    "benchmark": "Textpert",
+    "change": -0.2349,
+    "orders": 2132,
+    "subscribers": 4053,
+    "value": 1.901032
+  },
+  "earnedRevenue": {
+    "l30": 235414.72,
+    "l365": 1662091,
+    "l7": 8408.42,
+    "l90": 659201.81,
+    "sources": {
+      "automation_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "campaign_revenue": {
+        "l30": 0,
+        "l365": 872.7,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "desktop_block_popup_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "desktop_popup_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "double_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "flow_revenue": {
+        "l30": 193779.59,
+        "l365": 860793.11,
+        "l7": 2899.48,
+        "l90": 437618.46,
+        "today": 0
+      },
+      "keyword_revenue": {
+        "l30": 40500.59,
+        "l365": 787174.09,
+        "l7": 5446.81,
+        "l90": 217122.57,
+        "today": 487.52
+      },
+      "klaviyo_form_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "mobile_block_popup_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "mobile_popup_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "opt_in_revenue": {
+        "l30": 775.45,
+        "l365": 9645.1,
+        "l7": 0,
+        "l90": 2902.53,
+        "today": 0
+      },
+      "partner_api_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "response_revenue": {
+        "l30": 359.09,
+        "l365": 3606,
+        "l7": 62.13,
+        "l90": 1558.25,
+        "today": 0
+      },
+      "shopify_checkout_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      }
+    },
+    "today": 487.52
+  },
+  "messages": {
+    "benchmark": "Textpert",
+    "change": 0.2859,
+    "messages": 292684,
+    "subscribers": 39604,
+    "value": 7.39026361
+  },
+  "retentionRate": {
+    "benchmark": "Intermediate",
+    "change": 0.0476,
+    "value": 0.786049
+  },
+  "revenue": {
+    "benchmark": "Textpert",
+    "change": -0.1552,
+    "messages": 292684,
+    "revenue": 238930.06,
+    "value": 0.8163413784
+  },
+  "sltv": {
+    "benchmark": "Textpert",
+    "change": -0.1258,
+    "messages": 7,
+    "revenue": 0.8163413784,
+    "unsub": 0.2139508719294956,
+    "value": 87.8368
+  },
+  "subscribers": {
+    "l30": 3170,
+    "l365": 39623,
+    "l7": 261,
+    "l90": 11739,
+    "sources": {
+      "Keyword": {
+        "l30": 1103,
+        "l365": 7165,
+        "l7": 0,
+        "l90": 1476,
+        "today": 0
+      },
+      "Keyword - API": {
+        "l30": 1451,
+        "l365": 29584,
+        "l7": 257,
+        "l90": 9619,
+        "today": 41
+      },
+      "Klaviyo Form": {
+        "l30": 595,
+        "l365": 2666,
+        "l7": 0,
+        "l90": 596,
+        "today": 0
+      },
+      "Shopify Checkout Customer Consent": {
+        "l30": 21,
+        "l365": 208,
+        "l7": 4,
+        "l90": 48,
+        "today": 0
+      }
+    },
+    "today": 41
+  },
+  "unsub": {
+    "benchmark": "Intermediate",
+    "change": -0.143,
+    "messages": 292684,
+    "sltvUnsub": 0.2139508719294956,
+    "unsub": 2301,
+    "value": 0.007861721174
+  }
+}

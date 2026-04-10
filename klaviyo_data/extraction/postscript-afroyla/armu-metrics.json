@@ -1,0 +1,195 @@
+{
+  "acquisition": {
+    "benchmark": "Textpert",
+    "change": 0.0848,
+    "orders": 5770,
+    "subscribers": 20481,
+    "value": 3.549567
+  },
+  "earnedRevenue": {
+    "l30": 726118.26,
+    "l365": 6084513.970000001,
+    "l7": 34437.65,
+    "l90": 1686387.9,
+    "sources": {
+      "automation_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "campaign_revenue": {
+        "l30": 0,
+        "l365": 30327.39,
+        "l7": 0,
+        "l90": 23723.53,
+        "today": 0
+      },
+      "desktop_block_popup_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "desktop_popup_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "double_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "flow_revenue": {
+        "l30": 675679.08,
+        "l365": 3424795.74,
+        "l7": 32508.9,
+        "l90": 1373171.18,
+        "today": 1429.11
+      },
+      "keyword_revenue": {
+        "l30": 47140.63,
+        "l365": 2595142.43,
+        "l7": 1782.2,
+        "l90": 279645.89,
+        "today": 0
+      },
+      "klaviyo_form_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "mobile_block_popup_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "mobile_popup_opt_in_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "opt_in_revenue": {
+        "l30": 1776.31,
+        "l365": 20957.13,
+        "l7": 103.76,
+        "l90": 5314.4,
+        "today": 0
+      },
+      "partner_api_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      },
+      "response_revenue": {
+        "l30": 1522.24,
+        "l365": 13291.28,
+        "l7": 42.79,
+        "l90": 4532.9,
+        "today": 0
+      },
+      "shopify_checkout_revenue": {
+        "l30": 0,
+        "l365": 0,
+        "l7": 0,
+        "l90": 0,
+        "today": 0
+      }
+    },
+    "today": 1429.11
+  },
+  "messages": {
+    "benchmark": "Textpert",
+    "change": 0.0814,
+    "messages": 1516858,
+    "subscribers": 128455,
+    "value": 11.808477677
+  },
+  "retentionRate": {
+    "benchmark": "Textpert",
+    "change": -0.0156,
+    "value": 0.820178
+  },
+  "revenue": {
+    "benchmark": "Textpert",
+    "change": 0.2071,
+    "messages": 1516858,
+    "revenue": 833712.9,
+    "value": 0.5496314751
+  },
+  "sltv": {
+    "benchmark": "Textpert",
+    "change": -0.2932,
+    "messages": 11,
+    "revenue": 0.5496314751,
+    "unsub": 0.17982203444081685,
+    "value": 133.7914
+  },
+  "subscribers": {
+    "l30": 17796,
+    "l365": 129141,
+    "l7": 4840,
+    "l90": 37389,
+    "sources": {
+      "3rd Party Onsite Opt-in-Alia": {
+        "l30": 10995,
+        "l365": 19551,
+        "l7": 4828,
+        "l90": 18659,
+        "today": 1066
+      },
+      "Keyword": {
+        "l30": 3204,
+        "l365": 7622,
+        "l7": 0,
+        "l90": 5334,
+        "today": 0
+      },
+      "Keyword - API": {
+        "l30": 0,
+        "l365": 97548,
+        "l7": 0,
+        "l90": 9752,
+        "today": 0
+      },
+      "Klaviyo Form": {
+        "l30": 3569,
+        "l365": 3988,
+        "l7": 6,
+        "l90": 3580,
+        "today": 0
+      },
+      "Shopify Checkout Customer Consent": {
+        "l30": 28,
+        "l365": 432,
+        "l7": 6,
+        "l90": 64,
+        "today": 1
+      }
+    },
+    "today": 1067
+  },
+  "unsub": {
+    "benchmark": "Textpert",
+    "change": 0.0779,
+    "messages": 1516858,
+    "sltvUnsub": 0.17982203444081685,
+    "unsub": 9186,
+    "value": 0.006055939317
+  }
+}

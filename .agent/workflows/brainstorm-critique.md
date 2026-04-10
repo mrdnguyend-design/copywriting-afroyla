@@ -1,8 +1,15 @@
 ---
-description: Ben & Daniel Brainstorm + Critique — Review và cải thiện bất kỳ email draft nào theo Infotainment framework
+description: "⚠️ DEPRECATED — Merged vào /review-craft. File giữ lại cho reference."
 ---
 
-# 🎯 BEN & DANIEL BRAINSTORM + CRITIQUE
+# ⚠️ DEPRECATED — Merged vào `/review-craft`
+
+> Ben & Daniel brainstorm → giờ nằm trong `/write-email` Phase 2.
+> Ben & Daniel critique → giờ nằm trong `/review-craft`.
+
+---
+
+# 🎯 BEN & DANIEL BRAINSTORM + CRITIQUE (DEPRECATED)
 
 > Skill này có thể dùng **độc lập** (không cần chạy full workflow `/afroyla-copywriter`).
 > Dùng khi bạn đã có draft và muốn review/improve.

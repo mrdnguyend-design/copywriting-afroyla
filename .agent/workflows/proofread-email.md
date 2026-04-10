@@ -1,8 +1,14 @@
 ---
-description: Proofread Email — Audit & rewrite email drafts to remove AI-isms using the Throssell-Style Content Auditor
+description: "⚠️ DEPRECATED — Merged vào /review-craft. File giữ lại cho reference."
 ---
 
-# The Throssell-Style Content Auditor & Improver
+# ⚠️ DEPRECATED — Merged vào `/review-craft`
+
+> Throssell AI-ism audit → giờ nằm trong `/review-craft` (check em dashes, triple-And, staccato, show-not-tell).
+
+---
+
+# The Throssell-Style Content Auditor & Improver (DEPRECATED)
 
 ## Persona & Goal
 

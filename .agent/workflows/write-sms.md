@@ -1,215 +1,213 @@
 ---
-description: Write SMS - Viết SMS flash deal cho VIP segment (BLS-Registered) theo phong cách Michelle texting bạn thân
+description: Write SMS — Viết SMS broadcast theo pillar-based system
 ---
 
-# 📱 AFROYLA SMS FLASH DEAL WORKFLOW
+# WRITE SMS WORKFLOW
 
-> **Role:** Michelle texting bạn thân — KHÔNG phải brand gửi promo
-> **Segment:** BLS-Registered / High-Engaged customers
-> **Frequency:** 8-10x/tháng (2-3x/tuần), 24h mỗi deal
-> **Voice:** Intimate, conspiratorial, fun — "side group chat where the REAL tea drops"
-
----
-
-## BƯỚC 0: ĐỌC KNOWLEDGE FILES
-
-Trước khi viết BẤT KỲ SMS nào, đọc:
-
-1. **`D:\Copywriting Afroyla\knowledge\core\sms-vip-flash-deal-templates.md`** — Template system với 10 angles xoay vòng, golden rules, rotation calendar
-2. **`D:\Copywriting Afroyla\knowledge\core\universe-afroyla-cast.md`** — Cast bible (George, Alice, Keisha, Marcus, Tasha, Nia)
-3. **`D:\Copywriting Afroyla\knowledge\core\writing-patterns-klaviyo.md`** — Voice & tone patterns
-4. **`D:\Copywriting Afroyla\knowledge\core\BRAND_CONTEXT.md`** — Brand overview, product lines, audience
+> **Ai chạy:** Writer hoặc AI Agent
+> **Input:** Brief từ `/daily-brief` hoặc manual brief
+> **Output:** SMS draft (2-3 versions) — chưa finalize
+> **Next:** Review (optional) → `/finalize-sms`
+>
+> **Voice:** Michelle texting bạn thân — KHÔNG phải brand gửi promo
 
 ---
 
-## BƯỚC 1: NHẬN BRIEF
+## STEP 0: LOAD KNOWLEDGE
 
-Hỏi user nếu thiếu thông tin:
+Đọc trước khi viết:
+
+1. `knowledge/core/content-taxonomy.md` Part 2B — SMS Pillars (Deal Justification × Urgency × Character × Tone)
+2. `knowledge/core/content-taxonomy.md` Part 1C — SMS Contexts (Flash Deal / Campaign Warmup / Mass Registration)
+3. `knowledge/core/content-templates.md` Part 2 — SMS Structural Patterns (A: Story / B: Character / C: Direct)
+4. `knowledge/core/content-standards.md` — SMS checklist + voice standards
+5. `knowledge/core/universe-afroyla-cast.md` — character voice (George, Alice)
+6. `examples/sms_log.md` — xem angle/character/tone gần nhất → KHÔNG lặp
+
+---
+
+## STEP 1: RECEIVE BRIEF
+
+### Từ `/daily-brief`:
+Brief đã sẵn sàng:
+- Context: Flash Deal / Campaign Warmup / Mass Registration
+- Segment: REG / HIGH / MASS / NS
+- Product + deal price + normal price
+- Pillars: Justification × Urgency × Character × Tone
+- Cross-thread: cách kết nối với email cùng ngày
+
+### Manual brief:
+Hỏi user:
 
 | Cần biết | Ví dụ |
-|---|---|
-| **Sản phẩm** | "Aina" White Wallet |
-| **Giá deal** | $9.95 |
-| **Giá gốc** | $49.95 |
-| **Lý do / Backstory** | Mở lại deal từ BLS, quà cảm ơn, George bet, v.v. |
-| **Link** | URL hoặc placeholder `[LINK]` |
-| **Coupon code?** | Có/Không. Nếu có → "code inside, click to check" |
-| **Thời hạn** | 24h (mặc định) |
-| **Angle preference?** | User muốn funny? warm? short? Hoặc để AI chọn |
+|----------|-------|
+| **Sản phẩm** | "Zanira" Leather Tote |
+| **Giá deal** | $89.95 |
+| **Giá gốc** | $149.95 |
+| **Lý do deal?** | Overproduction / loyalty / seasonal / customer trigger / spontaneous / mission |
+| **Link** | URL hoặc `[LINK]` |
+| **Thời hạn** | 24h (default) |
+| **Segment** | HIGH / REG / MASS |
 
 ---
 
-## BƯỚC 2: CHỌN ANGLE
+## STEP 2: CHỌN PILLARS
 
-Mở **`sms-vip-flash-deal-templates.md`** và chọn angle phù hợp.
-
-### Quy tắc chọn angle
-
-1. **Check angle cuối cùng đã dùng** — đọc `D:\Copywriting Afroyla\examples\sms_log.md` → KHÔNG dùng lại angle đó
-2. **Match angle với sản phẩm** — xem bảng "Product-Specific Notes" trong template file
-3. **Match angle với backstory** — nếu user cho story seed → ưu tiên Angle 10 (Story Text)
-4. **Xem rotation calendar** — đang tuần mấy của tháng? Follow lịch xoay
-
-### Bảng tham khảo nhanh
-
-| Angle | Tên | Khi nào dùng |
-|---|---|---|
-| 1 | I Saved You One | Muốn warmth, loyalty |
-| 2 | I Woke Up Petty | Deal quá sâu, cần lý do ngớ ngẩn |
-| 3 | George Doesn't Know | Conspiracy comedy, deal < $10 |
-| 4 | My Thank You | Pure gratitude (MAX 1x/2 tuần) |
-| 5 | The Dare | Stock giới hạn, competitive feel |
-| 6 | George's Review | Comedy thuần, sản phẩm fun |
-| 7 | Alice Will Find Out | Discount lớn, Alice-as-urgency |
-| 8 | The Confessional | Deal điên rồ, self-deprecating humor |
-| 9 | The Receipt | Tuần bận, cần ngắn gọn palate cleanser |
-| 10 | The Story Text | Có real story/customer moment |
-
----
-
-## BƯỚC 3: VIẾT SMS
-
-### Golden Rules (áp dụng MỌI SMS)
-
-1. **KHÔNG nói "VIP" hay "EXCLUSIVE"** — show qua hành vi, không label
-2. **1 joke/angle per SMS** — đừng stack comedy
-3. **Lead with relationship** — "Sis, I did something" > "FLASH SALE 🚨"
-4. **Dưới 480 ký tự** lý tưởng (2-3 SMS segments trên Klaviyo). Tối đa 500.
-5. **1 nhân vật max** — George HOẶC Alice. Không cả hai.
-6. **Product name + price anchor luôn có** — `"[Product]" $X.XX (normally $XX.XX)`
-7. **End with warmth** — "— Michelle 💜" (không bao giờ "— Afroyla Team")
-8. **Coupon code = curiosity gap** — "Your code is inside 👉" (không ghi code trong SMS)
-9. **Urgency tự nhiên** — "24 hours" hoặc "before Alice sees" — KHÔNG dùng "⏰ HURRY!!!"
-
-### Viết theo template
-
-Lấy template từ `sms-vip-flash-deal-templates.md`, customize với:
-
-- Product cụ thể
-- Backstory user cung cấp
-- Giọng văn / language phù hợp context
-
-### Logic Check trước khi output
-
-- [ ] **Đọc thành tiếng:** Nghe như Michelle nhắn tin cho bạn thân? Hay như brand gửi promo?
-- [ ] **Character đúng không?** George = clueless-sweet, Alice = cautious (check cast bible)
-- [ ] **Có label "VIP/EXCLUSIVE" không?** → XÓA. Thay bằng hành vi.
-- [ ] **Ký tự count?** Dưới 480 ideal.
-- [ ] **Có CTA rõ ràng?** 👉 [LINK] hoặc "click to check"
-- [ ] **Có price anchor?** $deal (normally $original)
-- [ ] **Khác angle lần trước?** Check SMS log.
-
----
-
-## BƯỚC 4: PRESENT OPTIONS
-
-Trình bày **2-3 phiên bản** SMS cho user:
-
-- Mỗi version dùng angle khác nhau
-- Ghi rõ: tên angle, vì sao chọn, character count
-- Recommend top pick với lý do
-
-**Format:**
+Reference `content-taxonomy.md` Part 2B. Chọn 1 option từ mỗi pillar:
 
 ```
-### VERSION A — "[Tên Angle]" 🏆 (Top Pick)
+┌─ DEAL JUSTIFICATION ────────────────────────┐
+│ □ Overproduction  □ Loyalty reward           │
+│ □ Seasonal/Cultural  □ Customer trigger      │
+│ □ Spontaneous  □ Mission-tied                │
+├─ URGENCY MECHANISM ─────────────────────────┤
+│ □ Time-based (24h)  □ Person-based (Alice)   │
+│ □ Inventory-based  □ Social-based (peers)    │
+│ □ No urgency                                 │
+├─ CHARACTER DEVICE ──────────────────────────┤
+│ □ Michelle vulnerable  □ George comedy       │
+│ □ Alice tension  □ Customer proof            │
+│ □ No character                               │
+├─ TONE ──────────────────────────────────────┤
+│ □ Warm-intimate  □ Conspiratorial            │
+│ □ Playful-competitive  □ Sincere-grateful    │
+│ □ Ultra-direct                               │
+└─────────────────────────────────────────────┘
+```
+
+### Variety check TRƯỚC khi chọn:
+- Đọc `sms_log.md` — SMS trước đó dùng gì?
+- **KHÔNG lặp** Character + Tone 2 lần liên tiếp
+- **Sincere-grateful** max 1x/2 tuần
+- **George** nên xuất hiện min 1x/tuần (audience loves George)
+
+---
+
+## STEP 3: CHỌN STRUCTURAL PATTERN
+
+Reference `content-templates.md` Part 2:
+
+| Pattern | Khi nào | Length |
+|---------|---------|--------|
+| **A: Story-driven** | Có real story, HIGH segment | 300-480 chars |
+| **B: Character-driven** | Muốn lighter, George/Alice device | 200-350 chars |
+| **C: Direct** | SMS fatigue, palate cleanser, simple deal | 100-200 chars |
+
+**Variety:** Không lặp cùng pattern 2 lần liên tiếp.
+
+---
+
+## STEP 4: VIẾT
+
+### Cross-Reference Email (nếu cùng ngày)
+
+Nếu hôm nay có email:
+1. Đọc email draft → xác định character, product, emotional theme
+2. SMS phải COMPLEMENT, không DUPLICATE:
+   - Same character, different role: Email P.S. = George joke → SMS = George as urgency device
+   - Complementary product: Email feature tote → SMS push matching wallet
+   - Tone complement: Email emotional → SMS lighter. Email funny → SMS warm.
+   - **NEVER:** SMS tóm tắt email. Khác angle, khác energy.
+
+### Viết 2-3 versions
+
+Mỗi version dùng pillar combination khác:
+
+```
+### VERSION A — [Pillars summary] 🏆 (nếu recommend)
 [SMS content]
 
-**Angle:** [#] — [Tên]
-**Characters:** [count]
-**Vì sao:** [1 câu]
-
----
-
-### VERSION B — "[Tên Angle]"
-[SMS content]
-
-**Angle:** [#] — [Tên]
-**Characters:** [count]
-```
-
-Chờ user chọn hoặc feedback.
-
----
-
-## BƯỚC 5: BEN & DANIEL QUICK REVIEW
-
-Sau khi user chọn version, chạy **review nhanh** (rút gọn từ `/brainstorm-critique`):
-
-```
-🎯 BEN: [1-2 câu về hook power + sales psychology]
-🎨 DANIEL: [1-2 câu về tone + intimacy]
-✅ SCORE: ⭐⭐⭐⭐⭐ / 5
-💡 TWEAK: [1 cải tiến nếu cần, hoặc "Ready to send."]
-```
-
-Nếu score < 4 → tự động revise và present lại.
-Nếu score >= 4 → present final version.
-
----
-
-## BƯỚC 6: FINALIZE & LOG
-
-### A. Output final SMS
-
-```
-📱 FINAL SMS — [Product Name]
-================================
-[SMS content — ready to paste vào Klaviyo]
-================================
-Angle: [#] — [Tên]
+Pillars: [Justification] × [Urgency] × [Character] × [Tone]
+Pattern: [A/B/C]
 Characters: [count]
-Segments: [1-3]
-```
-
-### B. Log vào SMS history
-
-Append entry vào `D:\Copywriting Afroyla\examples\sms_log.md`:
-
-```markdown
-## [DDMMYY] — [Product Name]
-- **Deal:** $[price] (normally $[original])
-- **Angle:** [#] — [Tên angle]
-- **SMS:**
-  > [Full SMS text]
-- **Notes:** [Bất kỳ context nào — lý do chọn angle, feedback user]
-```
-
-Tạo file `sms_log.md` nếu chưa tồn tại.
 
 ---
 
-## BEHAVIOR & RULES
+### VERSION B — [Pillars summary]
+[SMS content]
 
-### Interaction Protocol
+Pillars: [Justification] × [Urgency] × [Character] × [Tone]
+Pattern: [A/B/C]
+Characters: [count]
+```
 
-* **IF** user nói sản phẩm + giá → Chạy Bước 1-6 đầy đủ
-- **IF** user nói "viết nhanh" hoặc "quick" → Skip Bước 4 (chỉ 1 version), skip review chi tiết
-- **IF** user paste 1 SMS draft → Chạy Bước 5 (Review) + suggest improvements
-- **IF** user nói "ngắn hơn" → Dùng Angle 9 (The Receipt)
-- **IF** user nói "funny hơn" → Ưu tiên Angle 3, 6, hoặc 8
-- **IF** user nói "warm hơn" → Ưu tiên Angle 1, 4, hoặc 10
+### Golden Rules (check MỌI SMS):
 
-### Phase Gate Rules
-
-* **Bước 3 → 4:** Tự động (viết xong → present options)
-- **Bước 4 → 5:** DỪNG. Chờ user chọn version.
-- **Bước 5 → 6:** Tự động (review xong → finalize + log)
-
-### Tần suất sử dụng angle (constraints)
-
-* **Angle 4 (My Thank You):** MAX 2x/tháng
-- **George angles (3, 6):** MIN 1x/tuần (audience loves George)
-- **Angle 9 (The Receipt):** Dùng sau tuần gửi 3 SMS dài
-- **Angle 10 (Story Text):** CHỈ khi có real story — KHÔNG fake
+1. **KHÔNG** nói "VIP" hay "EXCLUSIVE" — show qua hành vi ("just you", "between us")
+2. **1 joke/angle per SMS** — không stack comedy
+3. **Lead with relationship** — "Sis, I did something" > "FLASH SALE 🚨"
+4. **Under 480 chars** (ideal under 320)
+5. **1 character max** — George HOẶC Alice. Không cả hai.
+6. **Product name + price anchor** — `"[Product]" $X (normally $XX)`
+7. **End with warmth** — "— Michelle 💜" (không "— Afroyla Team")
+8. **Urgency conversational** — "24 hours" hoặc "before Alice sees". KHÔNG "⏰ HURRY!!!"
+9. **KHÔNG** scripted multi-turn dialogue ("George: / Me:"). Quote 1-2 lines max.
 
 ---
 
-## GHI CHÚ
+## STEP 5: PRESENT & SELECT
 
-- **SMS ≠ Email thu nhỏ.** Đừng cố nhét story arc vào SMS. SMS = 1 moment, 1 emotion, 1 action.
-- **Đọc `sms_log.md` TRƯỚC mỗi lần viết** — tránh lặp angle, lặp jokes
-- **Michelle trong SMS khác Michelle trong email:** Email = storyteller. SMS = bạn thân nhắn tin nhanh.
-- **Emoji tiết kiệm:** Max 2-3 emoji/SMS. 💜 😂 😭 🤫 👑 là palette chính. KHÔNG spam 🚨🔥⏰💥
-- **Không bao giờ dùng:** "Dear valued customer", "Act now!", "Limited time offer!", "Don't miss out!"
-- **Luôn dùng:** {{ first_name|default:'Sis' }}, "— Michelle", giọng thân mật
+Present 2-3 versions. Recommend top pick + lý do.
+
+Wait for user choice.
+
+---
+
+## STEP 6: OUTPUT
+
+```
+✅ SMS DRAFT READY
+
+📱 [PRODUCT] — [DEAL]
+================================
+[SMS content — ready for review/finalize]
+================================
+Pillars: [full 4-pillar summary]
+Pattern: [A/B/C]
+Characters: [count]
+Segment: [REG/HIGH/MASS]
+
+👉 NEXT:
+   Quick review (optional) → /review-craft
+   Or straight to → /finalize-sms
+```
+
+> SMS CAN skip review agents (shorter format, less risk). Nhưng campaign SMS (sale day, 5+ SMS/day) SHOULD get at least `/review-brand` check.
+
+---
+
+## SMS BY CONTEXT
+
+### Flash Deal (daily — 1 SMS)
+- Standard flow: Steps 0-6 above
+- Typical: 1 product, 1 deal, 24h, HIGH or REG segment
+
+### Campaign Warmup (pre-sale — sequence)
+- Behind-the-Scenes: Michelle ở warehouse, real prices, "browse tonight"
+- Data Anomaly: Tech person reports unexpected data
+- Prep/Schedule: Numbered steps, exact times, alarm instructions
+- Launch: "IT'S LIVE" + link
+→ Reference `content-templates.md` Part 2 — Campaign SMS structures
+
+### Mass Registration (drive sign-ups)
+- Under 200 chars if possible
+- NO link — reply-to-join ("Reply SANTA to get the code")
+- Curiosity > details
+- Social proof if available ("200 women already joined")
+
+### Sale Day (heavy — 5-8 SMS/day)
+- Plan ALL SMS for the day BEFORE writing
+- Variety: rotate patterns (A→B→C→A), rotate pillars
+- Escalate energy through the day (warm AM → urgent PM → last-call evening)
+- Real-time updates: "X orders in. Y spots left." + tier updates
+
+---
+
+## BEHAVIOR RULES
+
+- **IF** brief từ `/daily-brief` → Steps 1-2 pre-filled
+- **IF** user says "quick" → Skip to Step 4, 1 version only
+- **IF** user paste existing SMS → skip to review check
+- **IF** sale day (multiple SMS) → plan all SMS first, then write each
+- **ALWAYS** check `sms_log.md` for last angle/character → avoid repeat
+- **ALWAYS** check today's email for cross-reference opportunity

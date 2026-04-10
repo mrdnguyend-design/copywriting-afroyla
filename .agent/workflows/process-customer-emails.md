@@ -1,8 +1,14 @@
 ---
-description: Process Customer Emails — Phân loại và lưu trữ email khách hàng vào customer-voices
+description: "⚠️ DEPRECATED — Dùng /process-voices thay thế. File giữ lại cho reference."
 ---
 
-# 📬 PROCESS CUSTOMER EMAILS
+# ⚠️ DEPRECATED — Dùng `/process-voices` thay thế
+
+> Renamed + updated. Workflow mới thêm Story Source tagging, pattern detection.
+
+---
+
+# 📬 PROCESS CUSTOMER EMAILS (DEPRECATED)
 
 > **Mục tiêu:** Nhận batch email khách hàng, phân loại, extract quote, và lưu vào đúng digest file.
 > **Input:** Auto-fetch từ Gmail HOẶC user paste emails

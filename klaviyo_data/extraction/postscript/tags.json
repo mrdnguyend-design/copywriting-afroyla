@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "data": {
+    "tags": [
+      {
+        "id": 5,
+        "name": "BFCM"
+      },
+      {
+        "id": 2,
+        "name": "AI Generated"
+      },
+      {
+        "id": 3,
+        "name": "ReCharge"
+      },
+      {
+        "id": 4,
+        "name": "Klaviyo"
+      },
+      {
+        "id": 1,
+        "name": "Starter"
+      },
+      {
+        "id": 6,
+        "name": "Abandoned Cart"
+      },
+      {
+        "id": 7,
+        "name": "Welcome Series"
+      },
+      {
+        "id": 8,
+        "name": "Convert Subscribers"
+      },
+      {
+        "id": 9,
+        "name": "Post Purchase"
+      },
+      {
+        "id": 10,
+        "name": "Win-back"
+      },
+      {
+        "id": 11,
+        "name": "Loyalty"
+      },
+      {
+        "id": 12,
+        "name": "Product Education"
+      },
+      {
+        "id": 13,
+        "name": "Review / Referral"
+      },
+      {
+        "id": 14,
+        "name": "Shipping Notifications"
+      },
+      {
+        "id": 15,
+        "name": "Subscription"
+      },
+      {
+        "id": 1015,
+        "name": "Transactional"
+      }
+    ]
+  }
+}

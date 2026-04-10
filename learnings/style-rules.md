@@ -24,6 +24,13 @@
 19. **Opening = event/offer + hook in 3-5 lines.** Cold reader must know: what's being sold, when, at what price BEFORE the story starts. No "quick update" preambles. Lead with the number or the question.
 20. **SMS teaser ≠ corporate announcement.** "Heyyy" > "Attention." "Reply AFR995E to learn more" > "Text to join." Caller = Michelle texting a friend, not a brand sending a blast.
 21. **Real customer voices > manufactured stories for social proof emails.** Raw quotes (typos, emoji, slang preserved) are more convincing than any story you can write. Curate in escalating emotional order: comedy → enthusiasm → practical → emotional centerpiece.
+22. **Product section must stay in scene.** After an emotional story, DON'T switch to "Blacknificent = That's for the girl who..." listicle format. That's a product page, not Michelle. Instead: show Michelle IN a moment with the product ("I pulled up the sketch and stared at it"). Let the story do the selling. The reader already knows what the bag means — you just spent 600 words showing them.
+23. **P.S. jokes must be thematically connected.** George's P.S. should riff on the EMAIL's theme, not be a random character gag. "Can I get one that says what I needed to hear at 14?" (mirrors Toni's question) > "Not Bald, Just Aerodynamic" (disconnected bald joke). The Phyllis email's George joke worked because it was ABOUT the email's subject.
+24. **No triple-And anaphora.** "And she walked... And she looked... And she didn't see..." = AI pattern. Humans don't stack three And-sentences. Restructure: merge, vary, or cut.
+25. **"Polite vs quiet" reinterpretation.** When a character visits/reacts to something, give Michelle a LATER REALIZATION about what the reaction ACTUALLY meant. "I figured she was being polite" → later: "She hadn't been polite. She'd been QUIET." This is a scene TURN — Michelle's understanding shifts, and the reader shifts with her.
+26. **No naked pivot (R.E.B. Framework).** Story phải Relevant + Entertaining + Brief *trước khi* product xuất hiện. "Now. Real talk." / "Speaking of which..." / "That's why I..." = naked pivot. Nếu story không tự nhiên dẫn tới product → story sai, không phải pivot sai. Fix story, không fix transition.
+27. **Anti-staccato: vary paragraph length.** One-line paragraphs có impact VÌ chúng hiếm. Stack ≥3 cái liên tiếp → impact bằng 0, nhịp đọc chặt cứng. Sau 2 đoạn ngắn → một đoạn dài hơn. Rhythm = contrast.
+28. **No echo writing.** Không lặp cùng cấu trúc câu ≥3 lần liên tiếp. "She walked... She looked... She didn't..." / "I put down... I picked up... I stared at..." = AI fingerprint. Vary: đổi subject, dùng verb-first fragment, dùng dialogue, dùng parenthetical.
 
 ---
 

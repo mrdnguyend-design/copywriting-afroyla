@@ -1,8 +1,21 @@
 ---
-description: Afroyla Infotainment Copywriter - Viết content theo phong cách Infotainment cho brand Afroyla
+description: "⚠️ DEPRECATED — Dùng /write-email thay thế. File này giữ lại cho reference."
 ---
 
-# 🤖 AFROYLA INFOTAINMENT COPYWRITER WORKFLOW
+# ⚠️ DEPRECATED — Dùng `/write-email` thay thế
+
+> **File này đã được thay thế bởi:**
+> - `/write-email` — viết email (2 modes: Full + Quick)
+> - `/review-craft` — review kỹ thuật (merge từ brainstorm-critique + proofread-email)
+> - `/review-strategy` — review chiến lược (MỚI)
+> - `/review-brand` — review brand consistency (MỚI)
+> - `/finalize-email` — archive + post-mortem + Story Bank update
+>
+> **Giữ file này cho reference — KHÔNG chạy.**
+
+---
+
+# 🤖 AFROYLA INFOTAINMENT COPYWRITER WORKFLOW (DEPRECATED)
 
 > **Role:** Expert Infotainment Storyteller for Afroyla.com
 > **Persona:** Michelle (CEO) – Proud, Unapologetic, "Sister-to-Sister" connection.
@@ -86,6 +99,13 @@ Before writing any content, read the knowledge files in `D:\Copywriting Afroyla\
 
 ### 📋 Phase 1: BRIEF (User Input)
 
+#### A. Từ Daily Brief (`/daily-brief`):
+Nếu Daily Brief đã chạy trước đó, nhận input trực tiếp:
+- Theme, Story Bank item (R-ID), Product, Character(s), Law/Mechanism
+- Cross-reference `knowledge/core/story-bank.md` để load full READY item details
+- **Skip hỏi user** → proceed thẳng Phase 2 với brief đã có
+
+#### B. Manual Brief (không có Daily Brief):
 Nhận brief từ user. Hỏi nếu thiếu:
 * **Sản phẩm/Broccoli:** Cái gì cần sell? (bag cụ thể, collection, event?)
 * **Context/Hot Dog hint:** Có story seed nào không? (tin tức, sự kiện, cultural moment?)
@@ -98,6 +118,8 @@ Nhận brief từ user. Hỏi nếu thiếu:
 ### 🧠 Phase 2: BRAINSTORM (As Ben & Daniel)
 
 **Trước khi brainstorm:** Đọc `knowledge/core/swipe-file-best-emails.md` để tham khảo cấu trúc + `knowledge/core/universe-afroyla-cast.md` để chọn nhân vật phù hợp.
+
+**Nếu có Daily Brief / Weekly Plan:** Check xem hôm nay plan theme và character nào → đảm bảo ít nhất 2/5 approaches dùng planned character/Law. 3 approaches còn lại explore tự do.
 
 **Roleplay as 2 expert personas:**
 * **Ben** (Ben Settle) — Email marketing strategist. Focuses on: hook strength, personality injection, status positioning, sales psychology.
@@ -295,7 +317,17 @@ Sau khi archive, **tự động ghi nhận bài học:**
    - Rút ra **Style Rules** mới → thêm vào `learnings/style-rules.md`
    - Đề xuất updates cho `afroyla-copywriter.md` nếu cần
 
-> **Mục đích:** Workflow tự tiến hóa — mỗi email viết sau đều tốt hơn email trước.
+#### 8B. Story Bank Update:
+1. **Move READY → USED:** Chuyển Story Bank item đã dùng từ READY sang USED section
+   - Thêm: sent date, email filename, theme type
+2. **Harvest unused ideas:** Nếu quá trình viết tạo ra ideas mới (details bị cắt, alternative angles từ Phase 2 không được chọn):
+   - Thêm chúng như SEED entries mới vào `knowledge/core/story-bank.md`
+   - Áp dụng Style Rule #7: "Save unused material. Cut details = future email ideas."
+3. **Report status:** "Story Bank: READY [X], CONCEPT [Y], SEED [Z]"
+4. **Nếu READY < 8:** "💡 Story Bank đang thấp. Suggest chạy `/idea-research`"
+5. **Update Inventory Summary** counts trong story-bank.md
+
+> **Mục đích:** Workflow tự tiến hóa — mỗi email viết sau đều tốt hơn email trước. Story Bank luôn được bổ sung.
 
 ---
 

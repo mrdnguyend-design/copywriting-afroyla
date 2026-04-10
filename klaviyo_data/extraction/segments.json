@@ -1,0 +1,1248 @@
+[
+  {
+    "type": "segment",
+    "id": "RMAdy8",
+    "attributes": {
+      "name": "Non-PUR All Time",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "XiiLnR",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "equals",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "alltime"
+                },
+                "metric_filters": null
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-11-01T09:16:22+00:00",
+      "updated": "2025-11-01T09:16:43+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/RMAdy8/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/RMAdy8/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/RMAdy8/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/RMAdy8/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/RMAdy8/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/RMAdy8/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/RMAdy8/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "RmR2F5",
+    "attributes": {
+      "name": "In Flow Post Purchase + Shipping",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "properties['In Flow']",
+                "filter": {
+                  "type": "string",
+                  "operator": "equals",
+                  "value": "Fulfilled"
+                }
+              },
+              {
+                "type": "profile-property",
+                "property": "properties['In Flow']",
+                "filter": {
+                  "type": "string",
+                  "operator": "equals",
+                  "value": "Post Purchase"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-04-02T07:02:11+00:00",
+      "updated": "2025-07-03T04:22:17+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/RmR2F5/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/RmR2F5/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/RmR2F5/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/RmR2F5/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/RmR2F5/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/RmR2F5/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/RmR2F5/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "Rs8Diq",
+    "attributes": {
+      "name": "All Profiles",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-marketing-consent",
+                "consent": {
+                  "channel": "email",
+                  "can_receive_marketing": true,
+                  "consent_status": {
+                    "subscription": "any",
+                    "filters": null
+                  }
+                }
+              },
+              {
+                "type": "profile-marketing-consent",
+                "consent": {
+                  "channel": "email",
+                  "can_receive_marketing": false,
+                  "consent_status": {
+                    "subscription": "any",
+                    "filters": null
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-09-24T02:54:50+00:00",
+      "updated": "2025-09-24T02:55:35+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Rs8Diq/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/Rs8Diq/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Rs8Diq/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/Rs8Diq/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Rs8Diq/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/Rs8Diq/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/Rs8Diq/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "SH4Xcn",
+    "attributes": {
+      "name": "Supressed",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-marketing-consent",
+                "consent": {
+                  "channel": "email",
+                  "can_receive_marketing": false,
+                  "consent_status": {
+                    "subscription": "any",
+                    "filters": null
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-11-07T04:35:21+00:00",
+      "updated": "2025-11-07T04:35:37+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SH4Xcn/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/SH4Xcn/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SH4Xcn/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/SH4Xcn/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SH4Xcn/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/SH4Xcn/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/SH4Xcn/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "SNJtV7",
+    "attributes": {
+      "name": "Subscribed SMS",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "properties['Shopify Tags']",
+                "filter": {
+                  "type": "list",
+                  "operator": "contains",
+                  "value": "PS-Accepts-SMS"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2026-02-02T15:02:44+00:00",
+      "updated": "2026-02-02T15:03:06+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SNJtV7/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/SNJtV7/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SNJtV7/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/SNJtV7/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SNJtV7/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/SNJtV7/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/SNJtV7/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "SYwMR9",
+    "attributes": {
+      "name": "Active - Buy Yourself",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-marketing-consent",
+                "consent": {
+                  "channel": "email",
+                  "can_receive_marketing": true,
+                  "consent_status": {
+                    "subscription": "any",
+                    "filters": null
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "properties['Who are you shopping for today?']",
+                "filter": {
+                  "type": "string",
+                  "operator": "equals",
+                  "value": "Myself"
+                }
+              },
+              {
+                "type": "profile-property",
+                "property": "properties['Who are you shopping for today?']",
+                "filter": {
+                  "type": "string",
+                  "operator": "equals",
+                  "value": "Just Browsing"
+                }
+              },
+              {
+                "type": "profile-property",
+                "property": "properties['Answer this question to start: Who are you shopping for today?']",
+                "filter": {
+                  "type": "string",
+                  "operator": "in",
+                  "value": [
+                    "Just Browsing",
+                    "Myself"
+                  ]
+                }
+              },
+              {
+                "type": "profile-property",
+                "property": "properties['Who are you shopping for today?']",
+                "filter": {
+                  "type": "existence",
+                  "operator": "not-set"
+                }
+              },
+              {
+                "type": "profile-property",
+                "property": "properties['Answer this question to start: Who are you shopping for today?']",
+                "filter": {
+                  "type": "existence",
+                  "operator": "not-set"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-05-23T03:07:18+00:00",
+      "updated": "2025-12-30T00:08:18+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SYwMR9/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/SYwMR9/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SYwMR9/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/SYwMR9/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SYwMR9/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/SYwMR9/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/SYwMR9/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "Sc6V3i",
+    "attributes": {
+      "name": "Nearly Inactive",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-marketing-consent",
+                "consent": {
+                  "channel": "email",
+                  "can_receive_marketing": true,
+                  "consent_status": {
+                    "subscription": "any",
+                    "filters": null
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "first_event_date",
+                "filter": {
+                  "type": "date",
+                  "operator": "at-least",
+                  "unit": "day",
+                  "quantity": 40
+                }
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "SZNGpS",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "less-than",
+                  "value": 4
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 40
+                },
+                "metric_filters": null
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "W4gF9B",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "equals",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 40
+                },
+                "metric_filters": null
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "XQGyE6",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "equals",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 60
+                },
+                "metric_filters": null
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "XiiLnR",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "equals",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 60
+                },
+                "metric_filters": null
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-11-07T04:33:49+00:00",
+      "updated": "2025-11-07T04:34:07+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Sc6V3i/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/Sc6V3i/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Sc6V3i/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/Sc6V3i/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Sc6V3i/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/Sc6V3i/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/Sc6V3i/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "SiRgLc",
+    "attributes": {
+      "name": "PUR All Time",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "XiiLnR",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "greater-than",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "alltime"
+                },
+                "metric_filters": null
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-10-30T04:23:01+00:00",
+      "updated": "2025-10-30T04:23:17+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SiRgLc/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/SiRgLc/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SiRgLc/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/SiRgLc/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/SiRgLc/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/SiRgLc/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/SiRgLc/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "Sv2uTu",
+    "attributes": {
+      "name": "VVIP",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "properties['Shopify Tags']",
+                "filter": {
+                  "type": "string",
+                  "operator": "contains",
+                  "value": "VIP"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-04-15T06:43:43+00:00",
+      "updated": "2025-04-15T15:43:09+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Sv2uTu/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/Sv2uTu/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Sv2uTu/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/Sv2uTu/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Sv2uTu/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/Sv2uTu/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/Sv2uTu/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "T34t9u",
+    "attributes": {
+      "name": "ORDER REFUND MARCH 20 (can not send email)",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "properties['Shopify Tags']",
+                "filter": {
+                  "type": "list",
+                  "operator": "contains",
+                  "value": "defective-order-mar26"
+                }
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-marketing-consent",
+                "consent": {
+                  "channel": "email",
+                  "can_receive_marketing": false,
+                  "consent_status": {
+                    "subscription": "any",
+                    "filters": null
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2026-03-21T11:15:44+00:00",
+      "updated": "2026-03-21T11:15:58+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/T34t9u/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/T34t9u/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/T34t9u/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/T34t9u/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/T34t9u/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/T34t9u/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/T34t9u/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "TH7HJM",
+    "attributes": {
+      "name": "Inactive",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-marketing-consent",
+                "consent": {
+                  "channel": "email",
+                  "can_receive_marketing": true,
+                  "consent_status": {
+                    "subscription": "any",
+                    "filters": null
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "first_event_date",
+                "filter": {
+                  "type": "date",
+                  "operator": "at-least",
+                  "unit": "day",
+                  "quantity": 60
+                }
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "SZNGpS",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "less-than",
+                  "value": 4
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 60
+                },
+                "metric_filters": null
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "W4gF9B",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "equals",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 60
+                },
+                "metric_filters": null
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "XQGyE6",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "equals",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 180
+                },
+                "metric_filters": null
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "XiiLnR",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "equals",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 180
+                },
+                "metric_filters": null
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-05-25T09:13:37+00:00",
+      "updated": "2025-05-25T09:14:15+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/TH7HJM/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/TH7HJM/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/TH7HJM/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/TH7HJM/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/TH7HJM/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/TH7HJM/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/TH7HJM/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "UPyVyv",
+    "attributes": {
+      "name": "Active - Shopping for Gift",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-marketing-consent",
+                "consent": {
+                  "channel": "email",
+                  "can_receive_marketing": true,
+                  "consent_status": {
+                    "subscription": "any",
+                    "filters": null
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "properties['Who are you shopping for today?']",
+                "filter": {
+                  "type": "string",
+                  "operator": "not-equals",
+                  "value": "Myself"
+                }
+              },
+              {
+                "type": "profile-property",
+                "property": "properties['First, who are you shopping for today?']",
+                "filter": {
+                  "type": "string",
+                  "operator": "not-in",
+                  "value": [
+                    "Myself"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "properties['Who are you shopping for today?']",
+                "filter": {
+                  "type": "string",
+                  "operator": "not-equals",
+                  "value": "Just Browsing"
+                }
+              },
+              {
+                "type": "profile-property",
+                "property": "properties['Answer this question to start: Who are you shopping for today?']",
+                "filter": {
+                  "type": "string",
+                  "operator": "not-in",
+                  "value": [
+                    "For Myself",
+                    "Just Browsing",
+                    "Myself"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-05-23T03:08:20+00:00",
+      "updated": "2026-01-16T15:07:55+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/UPyVyv/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/UPyVyv/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/UPyVyv/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/UPyVyv/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/UPyVyv/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/UPyVyv/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/UPyVyv/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "VwD9Ka",
+    "attributes": {
+      "name": "ORDER REFUND MARCH 20",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "properties['Shopify Tags']",
+                "filter": {
+                  "type": "list",
+                  "operator": "contains",
+                  "value": "defective-order-mar26"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2026-03-21T09:29:31+00:00",
+      "updated": "2026-03-21T09:29:53+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/VwD9Ka/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/VwD9Ka/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/VwD9Ka/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/VwD9Ka/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/VwD9Ka/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/VwD9Ka/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/VwD9Ka/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "WWm898",
+    "attributes": {
+      "name": "PUR All Time Exclude 30 Days",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "XiiLnR",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "greater-than",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "alltime"
+                },
+                "metric_filters": null
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "XiiLnR",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "equals",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 30
+                },
+                "metric_filters": null
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-10-30T04:36:54+00:00",
+      "updated": "2025-10-30T04:37:11+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/WWm898/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/WWm898/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/WWm898/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/WWm898/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/WWm898/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/WWm898/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/WWm898/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "Y7J4Lv",
+    "attributes": {
+      "name": "Canadian Customers",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-marketing-consent",
+                "consent": {
+                  "channel": "email",
+                  "can_receive_marketing": true,
+                  "consent_status": {
+                    "subscription": "any",
+                    "filters": null
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "conditions": [
+              {
+                "type": "profile-property",
+                "property": "location['country']",
+                "filter": {
+                  "type": "string",
+                  "operator": "not-equals",
+                  "value": "United States"
+                }
+              },
+              {
+                "type": "profile-property",
+                "property": "properties['country_code']",
+                "filter": {
+                  "type": "string",
+                  "operator": "not-equals",
+                  "value": "US"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2026-02-25T04:36:09+00:00",
+      "updated": "2026-02-25T04:36:25+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Y7J4Lv/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/Y7J4Lv/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Y7J4Lv/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/Y7J4Lv/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/Y7J4Lv/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/Y7J4Lv/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/Y7J4Lv/"
+    }
+  },
+  {
+    "type": "segment",
+    "id": "YicXNu",
+    "attributes": {
+      "name": "PUR Last 30 Days",
+      "definition": {
+        "condition_groups": [
+          {
+            "conditions": [
+              {
+                "type": "profile-metric",
+                "metric_id": "XiiLnR",
+                "measurement": "count",
+                "measurement_filter": {
+                  "type": "numeric",
+                  "operator": "greater-than",
+                  "value": 0
+                },
+                "timeframe_filter": {
+                  "type": "date",
+                  "operator": "in-the-last",
+                  "unit": "day",
+                  "quantity": 30
+                },
+                "metric_filters": null
+              }
+            ]
+          }
+        ]
+      },
+      "created": "2025-10-30T04:39:15+00:00",
+      "updated": "2025-10-30T04:39:28+00:00",
+      "is_active": true,
+      "is_processing": false,
+      "is_starred": false
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/YicXNu/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/segments/YicXNu/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/YicXNu/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/segments/YicXNu/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/segments/YicXNu/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/segments/YicXNu/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/segments/YicXNu/"
+    }
+  }
+]

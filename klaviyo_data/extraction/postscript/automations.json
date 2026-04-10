@@ -1,0 +1,851 @@
+[
+  {
+    "id": 772316,
+    "name": "Abandoned Cart",
+    "status": "Disabled",
+    "migrated": false,
+    "trigger": {
+      "id": 4,
+      "name": "Checkout Started",
+      "available_tags": [
+        {
+          "label": "First Name",
+          "value": "{first_name}"
+        },
+        {
+          "label": "Last Name",
+          "value": "{last_name}"
+        },
+        {
+          "label": "Shop Name",
+          "value": "{shop_name}"
+        },
+        {
+          "label": "Shop Link",
+          "value": "{shop_link}"
+        },
+        {
+          "label": "Abandoned Cart Link",
+          "value": "{abandoned_cart_link}"
+        },
+        {
+          "label": "Yotpo Point Balance",
+          "value": "{yotpo_point_balance}"
+        }
+      ],
+      "automation_obj_filter_schema_name": "shopify_checkouts_created",
+      "transactional_allowed": null,
+      "trigger_type": "shopify"
+    },
+    "cancel_trigger": {
+      "id": 1,
+      "name": "Order Created",
+      "available_tags": [
+        {
+          "label": "First Name",
+          "value": "{first_name}"
+        },
+        {
+          "label": "Last Name",
+          "value": "{last_name}"
+        },
+        {
+          "label": "Shop Name",
+          "value": "{shop_name}"
+        },
+        {
+          "label": "Shop Link",
+          "value": "{shop_link}"
+        },
+        {
+          "label": "Yotpo Point Balance",
+          "value": "{yotpo_point_balance}"
+        }
+      ],
+      "automation_obj_filter_schema_name": "shopify_orders_create",
+      "transactional_allowed": true,
+      "trigger_type": "shopify"
+    },
+    "cancel_triggers": [
+      {
+        "id": 1,
+        "name": "Order Created",
+        "available_tags": [
+          {
+            "label": "First Name",
+            "value": "{first_name}"
+          },
+          {
+            "label": "Last Name",
+            "value": "{last_name}"
+          },
+          {
+            "label": "Shop Name",
+            "value": "{shop_name}"
+          },
+          {
+            "label": "Shop Link",
+            "value": "{shop_link}"
+          },
+          {
+            "label": "Yotpo Point Balance",
+            "value": "{yotpo_point_balance}"
+          }
+        ],
+        "automation_obj_filter_schema_name": "shopify_orders_create",
+        "transactional_allowed": true,
+        "trigger_type": "shopify"
+      }
+    ],
+    "automation_messages": [
+      {
+        "message_id": 1581742,
+        "automation_id": 772316,
+        "message_number": 1,
+        "minutes_after_automation_start": 120,
+        "minutes_after_last_message": 120,
+        "message": "{shop_name}: Hi {first_name}! We noticed you left something behind! 🛒\n\nComplete your checkout before your 10% coupon expires: {10_percent_coupon}\n\nShop: {abandoned_cart_link} 👈\n",
+        "original_text": "{shop_name}: Hi {first_name}! We noticed you left something behind! 🛒\n\nComplete your checkout before your 10% coupon expires: {10_percent_coupon}\n\nShop: {abandoned_cart_link} 👈\n",
+        "preview_text": "{shop_name}: Hi {first_name}! We noticed you left something behind! 🛒\n\nComplete your checkout before your 10% coupon expires: {10_percent_coupon}\n\nShop: {abandoned_cart_link} 👈\n",
+        "preview_link_map": null,
+        "enabled": true,
+        "media_url": null,
+        "total_sent": null,
+        "total_clicks": null,
+        "convo_shop": null,
+        "attributed_revenue": null,
+        "attributed_orders_count": 0,
+        "message_strength": null,
+        "unsubscribe_count": 0,
+        "created_at": "2025-04-30",
+        "archived_at": null,
+        "dynamic_photo_preferences": {
+          "type": "product_photo"
+        }
+      }
+    ],
+    "active_subscriber_count": 0,
+    "completed_subscriber_count": 0,
+    "user_filter_criteria": null,
+    "object_filter_criteria_beta": null,
+    "object_filter_criteria_v1": null,
+    "total_sent": 0,
+    "total_clicks": 0,
+    "attributed_revenue": "0.0",
+    "attributed_orders_count": 0,
+    "unsubscribe_count": 0,
+    "once_per_subscriber": false,
+    "transactional": null,
+    "data": {}
+  },
+  {
+    "id": 772320,
+    "name": "Browse Abandonment",
+    "status": "Disabled",
+    "migrated": false,
+    "trigger": {
+      "id": 29,
+      "name": "Subscriber Viewed Product",
+      "available_tags": [
+        {
+          "label": "First Name",
+          "value": "{first_name}"
+        },
+        {
+          "label": "Last Name",
+          "value": "{last_name}"
+        },
+        {
+          "label": "Shop Name",
+          "value": "{shop_name}"
+        },
+        {
+          "label": "Shop Link",
+          "value": "{shop_link}"
+        },
+        {
+          "label": "First Product Viewed URL",
+          "value": "{first_product_url_viewed}"
+        },
+        {
+          "label": "Last Product Viewed URL",
+          "value": "{last_product_url_viewed}"
+        },
+        {
+          "label": "First Product Viewed",
+          "value": "{first_product_name_viewed}"
+        },
+        {
+          "label": "Last Product Viewed",
+          "value": "{last_product_name_viewed}"
+        },
+        {
+          "label": "First Product Viewed Checkout Link",
+          "value": "{first_product_checkout_link}"
+        },
+        {
+          "label": "Last Product Viewed Checkout Link",
+          "value": "{last_product_checkout_link}"
+        }
+      ],
+      "automation_obj_filter_schema_name": "subscriber_viewed_product",
+      "transactional_allowed": false,
+      "trigger_type": "postscript"
+    },
+    "cancel_trigger": null,
+    "cancel_triggers": [
+      {
+        "id": 4,
+        "name": "Checkout Started",
+        "available_tags": [
+          {
+            "label": "First Name",
+            "value": "{first_name}"
+          },
+          {
+            "label": "Last Name",
+            "value": "{last_name}"
+          },
+          {
+            "label": "Shop Name",
+            "value": "{shop_name}"
+          },
+          {
+            "label": "Shop Link",
+            "value": "{shop_link}"
+          },
+          {
+            "label": "Abandoned Cart Link",
+            "value": "{abandoned_cart_link}"
+          },
+          {
+            "label": "Yotpo Point Balance",
+            "value": "{yotpo_point_balance}"
+          }
+        ],
+        "automation_obj_filter_schema_name": "shopify_checkouts_created",
+        "transactional_allowed": null,
+        "trigger_type": "shopify"
+      },
+      {
+        "id": 1,
+        "name": "Order Created",
+        "available_tags": [
+          {
+            "label": "First Name",
+            "value": "{first_name}"
+          },
+          {
+            "label": "Last Name",
+            "value": "{last_name}"
+          },
+          {
+            "label": "Shop Name",
+            "value": "{shop_name}"
+          },
+          {
+            "label": "Shop Link",
+            "value": "{shop_link}"
+          },
+          {
+            "label": "Yotpo Point Balance",
+            "value": "{yotpo_point_balance}"
+          }
+        ],
+        "automation_obj_filter_schema_name": "shopify_orders_create",
+        "transactional_allowed": true,
+        "trigger_type": "shopify"
+      }
+    ],
+    "automation_messages": [
+      {
+        "message_id": 1581749,
+        "automation_id": 772320,
+        "message_number": 1,
+        "minutes_after_automation_start": 60,
+        "minutes_after_last_message": 60,
+        "message": "{shop_name}: Hi {first_name}!\n\nWe saw you were checking out one of our best sellers, but it looks like you forgot to checkout.\n\nHead back to where you last left off to complete your order: {last_product_url_viewed}\n",
+        "original_text": "{shop_name}: Hi {first_name}!\n\nWe saw you were checking out one of our best sellers, but it looks like you forgot to checkout.\n\nHead back to where you last left off to complete your order: {last_product_url_viewed}\n",
+        "preview_text": "{shop_name}: Hi {first_name}!\n\nWe saw you were checking out one of our best sellers, but it looks like you forgot to checkout.\n\nHead back to where you last left off to complete your order: {last_product_url_viewed}\n",
+        "preview_link_map": null,
+        "enabled": true,
+        "media_url": null,
+        "total_sent": null,
+        "total_clicks": null,
+        "convo_shop": null,
+        "attributed_revenue": null,
+        "attributed_orders_count": 0,
+        "message_strength": null,
+        "unsubscribe_count": 0,
+        "created_at": "2025-04-30",
+        "archived_at": null,
+        "dynamic_photo_preferences": null
+      }
+    ],
+    "active_subscriber_count": 0,
+    "completed_subscriber_count": 0,
+    "user_filter_criteria": null,
+    "object_filter_criteria_beta": null,
+    "object_filter_criteria_v1": null,
+    "total_sent": 0,
+    "total_clicks": 0,
+    "attributed_revenue": "0.0",
+    "attributed_orders_count": 0,
+    "unsubscribe_count": 0,
+    "once_per_subscriber": false,
+    "transactional": null,
+    "data": {}
+  },
+  {
+    "id": 772318,
+    "name": "Loyalty Offer",
+    "status": "Disabled",
+    "migrated": false,
+    "trigger": {
+      "id": 1,
+      "name": "Order Created",
+      "available_tags": [
+        {
+          "label": "First Name",
+          "value": "{first_name}"
+        },
+        {
+          "label": "Last Name",
+          "value": "{last_name}"
+        },
+        {
+          "label": "Shop Name",
+          "value": "{shop_name}"
+        },
+        {
+          "label": "Shop Link",
+          "value": "{shop_link}"
+        },
+        {
+          "label": "Yotpo Point Balance",
+          "value": "{yotpo_point_balance}"
+        }
+      ],
+      "automation_obj_filter_schema_name": "shopify_orders_create",
+      "transactional_allowed": true,
+      "trigger_type": "shopify"
+    },
+    "cancel_trigger": {
+      "id": 4,
+      "name": "Checkout Started",
+      "available_tags": [
+        {
+          "label": "First Name",
+          "value": "{first_name}"
+        },
+        {
+          "label": "Last Name",
+          "value": "{last_name}"
+        },
+        {
+          "label": "Shop Name",
+          "value": "{shop_name}"
+        },
+        {
+          "label": "Shop Link",
+          "value": "{shop_link}"
+        },
+        {
+          "label": "Abandoned Cart Link",
+          "value": "{abandoned_cart_link}"
+        },
+        {
+          "label": "Yotpo Point Balance",
+          "value": "{yotpo_point_balance}"
+        }
+      ],
+      "automation_obj_filter_schema_name": "shopify_checkouts_created",
+      "transactional_allowed": null,
+      "trigger_type": "shopify"
+    },
+    "cancel_triggers": [
+      {
+        "id": 4,
+        "name": "Checkout Started",
+        "available_tags": [
+          {
+            "label": "First Name",
+            "value": "{first_name}"
+          },
+          {
+            "label": "Last Name",
+            "value": "{last_name}"
+          },
+          {
+            "label": "Shop Name",
+            "value": "{shop_name}"
+          },
+          {
+            "label": "Shop Link",
+            "value": "{shop_link}"
+          },
+          {
+            "label": "Abandoned Cart Link",
+            "value": "{abandoned_cart_link}"
+          },
+          {
+            "label": "Yotpo Point Balance",
+            "value": "{yotpo_point_balance}"
+          }
+        ],
+        "automation_obj_filter_schema_name": "shopify_checkouts_created",
+        "transactional_allowed": null,
+        "trigger_type": "shopify"
+      }
+    ],
+    "automation_messages": [
+      {
+        "message_id": 1581744,
+        "automation_id": 772318,
+        "message_number": 1,
+        "minutes_after_automation_start": 7200,
+        "minutes_after_last_message": 7200,
+        "message": "{shop_name}: Hey {first_name}!\n\nThank you for your order! We hope you love it 🙌\n\nHere is 10% off for 24 hrs to use on another item as thank you!\n📲 Code: {10_percent_coupon}\n\nHead back to the site:\n{shop_link} 💥\n",
+        "original_text": "{shop_name}: Hey {first_name}!\n\nThank you for your order! We hope you love it 🙌\n\nHere is 10% off for 24 hrs to use on another item as thank you!\n📲 Code: {10_percent_coupon}\n\nHead back to the site:\n{shop_link} 💥\n",
+        "preview_text": "{shop_name}: Hey {first_name}!\n\nThank you for your order! We hope you love it 🙌\n\nHere is 10% off for 24 hrs to use on another item as thank you!\n📲 Code: {10_percent_coupon}\n\nHead back to the site:\n{shop_link} 💥\n",
+        "preview_link_map": null,
+        "enabled": true,
+        "media_url": "https://postscript-mms-files.s3.amazonaws.com/1571074701.gif",
+        "total_sent": null,
+        "total_clicks": null,
+        "convo_shop": null,
+        "attributed_revenue": null,
+        "attributed_orders_count": 0,
+        "message_strength": null,
+        "unsubscribe_count": 0,
+        "created_at": "2025-04-30",
+        "archived_at": null,
+        "dynamic_photo_preferences": null
+      },
+      {
+        "message_id": 1581745,
+        "automation_id": 772318,
+        "message_number": 2,
+        "minutes_after_automation_start": 8640,
+        "minutes_after_last_message": 1440,
+        "message": "{shop_name}: Hi {first_name}! Don't waste this coupon, it's expiring today :)\n\nShop: {shop_link} <<\n",
+        "original_text": "{shop_name}: Hi {first_name}! Don't waste this coupon, it's expiring today :)\n\nShop: {shop_link} <<\n",
+        "preview_text": "{shop_name}: Hi {first_name}! Don't waste this coupon, it's expiring today :)\n\nShop: {shop_link} <<\n",
+        "preview_link_map": null,
+        "enabled": true,
+        "media_url": null,
+        "total_sent": null,
+        "total_clicks": null,
+        "convo_shop": null,
+        "attributed_revenue": null,
+        "attributed_orders_count": 0,
+        "message_strength": null,
+        "unsubscribe_count": 0,
+        "created_at": "2025-04-30",
+        "archived_at": null,
+        "dynamic_photo_preferences": null
+      }
+    ],
+    "active_subscriber_count": 0,
+    "completed_subscriber_count": 0,
+    "user_filter_criteria": null,
+    "object_filter_criteria_beta": null,
+    "object_filter_criteria_v1": {
+      "ps_filter_version": 1,
+      "join_op": "or",
+      "entries": {
+        "Filter 1": {
+          "join_op": "and",
+          "entries": {
+            "total_discounts": {
+              "op": "lt",
+              "type": "number",
+              "value": "1"
+            }
+          }
+        }
+      }
+    },
+    "total_sent": 0,
+    "total_clicks": 0,
+    "attributed_revenue": "0.0",
+    "attributed_orders_count": 0,
+    "unsubscribe_count": 0,
+    "once_per_subscriber": false,
+    "transactional": null,
+    "data": {}
+  },
+  {
+    "id": 772321,
+    "name": "Product Back in Stock",
+    "status": "Disabled",
+    "migrated": false,
+    "trigger": {
+      "id": 1096,
+      "name": "Product Back in Stock",
+      "available_tags": [
+        {
+          "label": "First Name",
+          "value": "{first_name}"
+        },
+        {
+          "label": "Last Name",
+          "value": "{last_name}"
+        },
+        {
+          "label": "Shop Name",
+          "value": "{shop_name}"
+        },
+        {
+          "label": "Shop Link",
+          "value": "{shop_link}"
+        },
+        {
+          "label": "Product URL",
+          "value": "{product_url}"
+        },
+        {
+          "label": "Product Name",
+          "value": "{product_name}"
+        },
+        {
+          "label": "Variant Name",
+          "value": "{variant_name}"
+        },
+        {
+          "label": "Checkout Link",
+          "value": "{checkout_link}"
+        },
+        {
+          "label": "Text-to-Buy Checkout",
+          "value": "{text_to_buy}"
+        }
+      ],
+      "automation_obj_filter_schema_name": "product_back_in_stock",
+      "transactional_allowed": false,
+      "trigger_type": "postscript"
+    },
+    "cancel_trigger": null,
+    "cancel_triggers": [],
+    "automation_messages": [
+      {
+        "message_id": 1581750,
+        "automation_id": 772321,
+        "message_number": 1,
+        "minutes_after_automation_start": 0,
+        "minutes_after_last_message": 0,
+        "message": "{shop_name}: The wait is over! {product_name}: {variant_name} is back in stock and you're the first to know about it!\n\nOrder now before it's gone: {checkout_link}\n",
+        "original_text": "{shop_name}: The wait is over! {product_name}: {variant_name} is back in stock and you're the first to know about it!\n\nOrder now before it's gone: {checkout_link}\n",
+        "preview_text": "{shop_name}: The wait is over! {product_name}: {variant_name} is back in stock and you're the first to know about it!\n\nOrder now before it's gone: {checkout_link}\n",
+        "preview_link_map": null,
+        "enabled": true,
+        "media_url": null,
+        "total_sent": null,
+        "total_clicks": null,
+        "convo_shop": null,
+        "attributed_revenue": null,
+        "attributed_orders_count": 0,
+        "message_strength": null,
+        "unsubscribe_count": 0,
+        "created_at": "2025-04-30",
+        "archived_at": null,
+        "dynamic_photo_preferences": null
+      }
+    ],
+    "active_subscriber_count": 0,
+    "completed_subscriber_count": 0,
+    "user_filter_criteria": null,
+    "object_filter_criteria_beta": null,
+    "object_filter_criteria_v1": {
+      "ps_filter_version": 1,
+      "join_op": "or",
+      "entries": {
+        "Filter 1": {
+          "join_op": "and",
+          "entries": {
+            "per_stock": {
+              "op": "eq",
+              "type": "number",
+              "value": "20"
+            },
+            "threshold": {
+              "op": "gte",
+              "type": "number",
+              "value": "5"
+            }
+          }
+        }
+      }
+    },
+    "total_sent": 0,
+    "total_clicks": 0,
+    "attributed_revenue": "0.0",
+    "attributed_orders_count": 0,
+    "unsubscribe_count": 0,
+    "once_per_subscriber": false,
+    "transactional": null,
+    "data": {}
+  },
+  {
+    "id": 772317,
+    "name": "Shipping Notifications",
+    "status": "Disabled",
+    "migrated": false,
+    "trigger": {
+      "id": 5,
+      "name": "Order In Transit",
+      "available_tags": [
+        {
+          "label": "First Name",
+          "value": "{first_name}"
+        },
+        {
+          "label": "Last Name",
+          "value": "{last_name}"
+        },
+        {
+          "label": "Shop Name",
+          "value": "{shop_name}"
+        },
+        {
+          "label": "Shop Link",
+          "value": "{shop_link}"
+        },
+        {
+          "label": "Shipment Tracking Link",
+          "value": "{shipping_link}"
+        },
+        {
+          "label": "Tracking Company",
+          "value": "{tracking_company}"
+        },
+        {
+          "label": "Tracking Number",
+          "value": "{tracking_number}"
+        },
+        {
+          "label": "Yotpo Point Balance",
+          "value": "{yotpo_point_balance}"
+        }
+      ],
+      "automation_obj_filter_schema_name": "shopify_fulfillments_1",
+      "transactional_allowed": true,
+      "trigger_type": "shopify"
+    },
+    "cancel_trigger": null,
+    "cancel_triggers": [],
+    "automation_messages": [
+      {
+        "message_id": 1581743,
+        "automation_id": 772317,
+        "message_number": 1,
+        "minutes_after_automation_start": 15,
+        "minutes_after_last_message": 15,
+        "message": "{shop_name}: Hey {first_name}, your order has shipped via {tracking_company}!\n\nTrack your package here:\n{shipping_link}\n\nEnjoy!\n",
+        "original_text": "{shop_name}: Hey {first_name}, your order has shipped via {tracking_company}!\n\nTrack your package here:\n{shipping_link}\n\nEnjoy!\n",
+        "preview_text": "{shop_name}: Hey {first_name}, your order has shipped via {tracking_company}!\n\nTrack your package here:\n{shipping_link}\n\nEnjoy!\n",
+        "preview_link_map": null,
+        "enabled": true,
+        "media_url": null,
+        "total_sent": null,
+        "total_clicks": null,
+        "convo_shop": null,
+        "attributed_revenue": null,
+        "attributed_orders_count": 0,
+        "message_strength": null,
+        "unsubscribe_count": 0,
+        "created_at": "2025-04-30",
+        "archived_at": null,
+        "dynamic_photo_preferences": null
+      }
+    ],
+    "active_subscriber_count": 0,
+    "completed_subscriber_count": 0,
+    "user_filter_criteria": null,
+    "object_filter_criteria_beta": null,
+    "object_filter_criteria_v1": null,
+    "total_sent": 0,
+    "total_clicks": 0,
+    "attributed_revenue": "0.0",
+    "attributed_orders_count": 0,
+    "unsubscribe_count": 0,
+    "once_per_subscriber": false,
+    "transactional": null,
+    "data": {}
+  },
+  {
+    "id": 772319,
+    "name": "Welcome Series",
+    "status": "Disabled",
+    "migrated": false,
+    "trigger": {
+      "id": 9,
+      "name": "Subscriber Created (Popup, Keyword, or API)",
+      "available_tags": [
+        {
+          "label": "Shop Name",
+          "value": "{shop_name}"
+        },
+        {
+          "label": "Shop Link",
+          "value": "{shop_link}"
+        }
+      ],
+      "automation_obj_filter_schema_name": null,
+      "transactional_allowed": null,
+      "trigger_type": "postscript"
+    },
+    "cancel_trigger": {
+      "id": 4,
+      "name": "Checkout Started",
+      "available_tags": [
+        {
+          "label": "First Name",
+          "value": "{first_name}"
+        },
+        {
+          "label": "Last Name",
+          "value": "{last_name}"
+        },
+        {
+          "label": "Shop Name",
+          "value": "{shop_name}"
+        },
+        {
+          "label": "Shop Link",
+          "value": "{shop_link}"
+        },
+        {
+          "label": "Abandoned Cart Link",
+          "value": "{abandoned_cart_link}"
+        },
+        {
+          "label": "Yotpo Point Balance",
+          "value": "{yotpo_point_balance}"
+        }
+      ],
+      "automation_obj_filter_schema_name": "shopify_checkouts_created",
+      "transactional_allowed": null,
+      "trigger_type": "shopify"
+    },
+    "cancel_triggers": [
+      {
+        "id": 4,
+        "name": "Checkout Started",
+        "available_tags": [
+          {
+            "label": "First Name",
+            "value": "{first_name}"
+          },
+          {
+            "label": "Last Name",
+            "value": "{last_name}"
+          },
+          {
+            "label": "Shop Name",
+            "value": "{shop_name}"
+          },
+          {
+            "label": "Shop Link",
+            "value": "{shop_link}"
+          },
+          {
+            "label": "Abandoned Cart Link",
+            "value": "{abandoned_cart_link}"
+          },
+          {
+            "label": "Yotpo Point Balance",
+            "value": "{yotpo_point_balance}"
+          }
+        ],
+        "automation_obj_filter_schema_name": "shopify_checkouts_created",
+        "transactional_allowed": null,
+        "trigger_type": "shopify"
+      }
+    ],
+    "automation_messages": [
+      {
+        "message_id": 1581746,
+        "automation_id": 772319,
+        "message_number": 1,
+        "minutes_after_automation_start": 90,
+        "minutes_after_last_message": 90,
+        "message": "{shop_name}:\n\nWelcome to the {shop_name} VIP family! So glad you're here 🙌\n\nUse {10_percent_coupon} for 10% off your order - code automatically applied with this link 👇\n\nBack to the site:\n{shop_link} 👀\n",
+        "original_text": "{shop_name}:\n\nWelcome to the {shop_name} VIP family! So glad you're here 🙌\n\nUse {10_percent_coupon} for 10% off your order - code automatically applied with this link 👇\n\nBack to the site:\n{shop_link} 👀\n",
+        "preview_text": "{shop_name}:\n\nWelcome to the {shop_name} VIP family! So glad you're here 🙌\n\nUse {10_percent_coupon} for 10% off your order - code automatically applied with this link 👇\n\nBack to the site:\n{shop_link} 👀\n",
+        "preview_link_map": null,
+        "enabled": true,
+        "media_url": "https://postscript-mms-files.s3.amazonaws.com/1565675563.gif",
+        "total_sent": null,
+        "total_clicks": null,
+        "convo_shop": null,
+        "attributed_revenue": null,
+        "attributed_orders_count": 0,
+        "message_strength": null,
+        "unsubscribe_count": 0,
+        "created_at": "2025-04-30",
+        "archived_at": null,
+        "dynamic_photo_preferences": null
+      },
+      {
+        "message_id": 1581747,
+        "automation_id": 772319,
+        "message_number": 2,
+        "minutes_after_automation_start": 1530,
+        "minutes_after_last_message": 1440,
+        "message": "{shop_name}:\n\nHello again! Don't forget about your coupon...\n\nNeed help? Just text us back :)\n\nShop: {shop_link}\n",
+        "original_text": "{shop_name}:\n\nHello again! Don't forget about your coupon...\n\nNeed help? Just text us back :)\n\nShop: {shop_link}\n",
+        "preview_text": "{shop_name}:\n\nHello again! Don't forget about your coupon...\n\nNeed help? Just text us back :)\n\nShop: {shop_link}\n",
+        "preview_link_map": null,
+        "enabled": true,
+        "media_url": null,
+        "total_sent": null,
+        "total_clicks": null,
+        "convo_shop": null,
+        "attributed_revenue": null,
+        "attributed_orders_count": 0,
+        "message_strength": null,
+        "unsubscribe_count": 0,
+        "created_at": "2025-04-30",
+        "archived_at": null,
+        "dynamic_photo_preferences": null
+      },
+      {
+        "message_id": 1581748,
+        "automation_id": 772319,
+        "message_number": 3,
+        "minutes_after_automation_start": 7290,
+        "minutes_after_last_message": 5760,
+        "message": "{shop_name}:\n\nTime is running out on your discount! But we are here to sweeten the deal for you 🍭\n\nValid today only - get 15% off with code: {15_percent_coupon} 😎\n\nLet's do this! {shop_link} ⬅️\n",
+        "original_text": "{shop_name}:\n\nTime is running out on your discount! But we are here to sweeten the deal for you 🍭\n\nValid today only - get 15% off with code: {15_percent_coupon} 😎\n\nLet's do this! {shop_link} ⬅️\n",
+        "preview_text": "{shop_name}:\n\nTime is running out on your discount! But we are here to sweeten the deal for you 🍭\n\nValid today only - get 15% off with code: {15_percent_coupon} 😎\n\nLet's do this! {shop_link} ⬅️\n",
+        "preview_link_map": null,
+        "enabled": true,
+        "media_url": "https://postscript-mms-files.s3.amazonaws.com/1571072083.gif",
+        "total_sent": null,
+        "total_clicks": null,
+        "convo_shop": null,
+        "attributed_revenue": null,
+        "attributed_orders_count": 0,
+        "message_strength": null,
+        "unsubscribe_count": 0,
+        "created_at": "2025-04-30",
+        "archived_at": null,
+        "dynamic_photo_preferences": null
+      }
+    ],
+    "active_subscriber_count": 0,
+    "completed_subscriber_count": 0,
+    "user_filter_criteria": null,
+    "object_filter_criteria_beta": null,
+    "object_filter_criteria_v1": null,
+    "total_sent": 0,
+    "total_clicks": 0,
+    "attributed_revenue": "0.0",
+    "attributed_orders_count": 0,
+    "unsubscribe_count": 0,
+    "once_per_subscriber": false,
+    "transactional": null,
+    "data": {}
+  }
+]

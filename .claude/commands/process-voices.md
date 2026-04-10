@@ -1,0 +1,1 @@
+Read the workflow file at `.agent/workflows/process-voices.md` and execute it fully. Check the `customer-voices/` directory for unprocessed emails or feedback. Tag Story Source for each entry and detect recurring patterns. Follow every step in the workflow from start to finish.

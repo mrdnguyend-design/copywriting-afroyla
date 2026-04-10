@@ -7,8 +7,9 @@
     "fetch": "node fetch-emails.js"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
     "imapflow": "^1.0.171",
     "mailparser": "^3.7.2",
-    "dotenv": "^16.4.7"
+    "playwright": "^1.58.2"
   }
 }

@@ -1,0 +1,728 @@
+[
+  {
+    "type": "list",
+    "id": "QXv3Rd",
+    "attributes": {
+      "name": "Email List",
+      "created": "2025-02-03T08:48:43+00:00",
+      "updated": "2025-02-03T08:48:43+00:00",
+      "opt_in_process": "double_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/QXv3Rd/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/QXv3Rd/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/QXv3Rd/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/QXv3Rd/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/QXv3Rd/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/QXv3Rd/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/QXv3Rd/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "RWeq5G",
+    "attributes": {
+      "name": "WELCOME SERIES - BOGO",
+      "created": "2026-01-24T08:44:19+00:00",
+      "updated": "2026-01-24T08:44:19+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/RWeq5G/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/RWeq5G/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/RWeq5G/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/RWeq5G/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/RWeq5G/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/RWeq5G/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/RWeq5G/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "Rm8Aqy",
+    "attributes": {
+      "name": "Overstock Orders March 20",
+      "created": "2026-03-21T08:09:17+00:00",
+      "updated": "2026-03-21T08:09:17+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Rm8Aqy/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/Rm8Aqy/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Rm8Aqy/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/Rm8Aqy/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Rm8Aqy/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/Rm8Aqy/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/Rm8Aqy/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "S7X7cB",
+    "attributes": {
+      "name": "New Arrivals - May",
+      "created": "2025-05-07T13:45:34+00:00",
+      "updated": "2025-05-07T13:47:29+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/S7X7cB/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/S7X7cB/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/S7X7cB/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/S7X7cB/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/S7X7cB/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/S7X7cB/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/S7X7cB/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "S8TSK5",
+    "attributes": {
+      "name": "Preview List",
+      "created": "2025-02-03T08:48:43+00:00",
+      "updated": "2025-02-03T08:48:43+00:00",
+      "opt_in_process": "double_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/S8TSK5/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/S8TSK5/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/S8TSK5/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/S8TSK5/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/S8TSK5/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/S8TSK5/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/S8TSK5/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "SkFwSt",
+    "attributes": {
+      "name": "BLS - joined before Feb04",
+      "created": "2026-02-04T10:33:17+00:00",
+      "updated": "2026-02-04T10:33:17+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/SkFwSt/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/SkFwSt/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/SkFwSt/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/SkFwSt/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/SkFwSt/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/SkFwSt/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/SkFwSt/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "TEfZZ5",
+    "attributes": {
+      "name": "WELCOME 25",
+      "created": "2026-03-30T07:44:19+00:00",
+      "updated": "2026-03-30T07:44:19+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TEfZZ5/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/TEfZZ5/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TEfZZ5/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/TEfZZ5/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TEfZZ5/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/TEfZZ5/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/TEfZZ5/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "TGiYYq",
+    "attributes": {
+      "name": "WELCOME - 20%",
+      "created": "2026-01-15T07:16:45+00:00",
+      "updated": "2026-01-15T07:16:45+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TGiYYq/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/TGiYYq/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TGiYYq/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/TGiYYq/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TGiYYq/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/TGiYYq/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/TGiYYq/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "TWQxt5",
+    "attributes": {
+      "name": "80% OFF Wallet Deal",
+      "created": "2025-09-22T08:13:09+00:00",
+      "updated": "2025-09-22T08:13:18+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TWQxt5/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/TWQxt5/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TWQxt5/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/TWQxt5/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TWQxt5/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/TWQxt5/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/TWQxt5/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "TtyGQ6",
+    "attributes": {
+      "name": "MARCH MADNESS SIGNUP",
+      "created": "2026-03-11T08:59:07+00:00",
+      "updated": "2026-03-11T08:59:07+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TtyGQ6/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/TtyGQ6/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TtyGQ6/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/TtyGQ6/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/TtyGQ6/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/TtyGQ6/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/TtyGQ6/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "U5ATHN",
+    "attributes": {
+      "name": "IWD Sale - Signup",
+      "created": "2026-02-26T08:15:24+00:00",
+      "updated": "2026-02-26T08:15:24+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/U5ATHN/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/U5ATHN/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/U5ATHN/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/U5ATHN/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/U5ATHN/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/U5ATHN/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/U5ATHN/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "Ua3dPM",
+    "attributes": {
+      "name": "BLS Joined Before Feb06",
+      "created": "2026-02-06T10:45:04+00:00",
+      "updated": "2026-02-06T10:45:04+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Ua3dPM/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/Ua3dPM/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Ua3dPM/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/Ua3dPM/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Ua3dPM/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/Ua3dPM/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/Ua3dPM/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "UujW39",
+    "attributes": {
+      "name": "Everyone",
+      "created": "2025-02-15T09:49:38+00:00",
+      "updated": "2025-02-15T10:04:07+00:00",
+      "opt_in_process": "double_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/UujW39/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/UujW39/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/UujW39/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/UujW39/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/UujW39/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/UujW39/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/UujW39/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "VbmRuN",
+    "attributes": {
+      "name": "SMS List",
+      "created": "2025-02-03T08:48:43+00:00",
+      "updated": "2025-02-03T08:48:43+00:00",
+      "opt_in_process": "double_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/VbmRuN/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/VbmRuN/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/VbmRuN/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/VbmRuN/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/VbmRuN/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/VbmRuN/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/VbmRuN/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "Vv6qbH",
+    "attributes": {
+      "name": "Black August Interested",
+      "created": "2025-08-11T10:56:48+00:00",
+      "updated": "2025-08-11T10:57:07+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Vv6qbH/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/Vv6qbH/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Vv6qbH/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/Vv6qbH/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Vv6qbH/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/Vv6qbH/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/Vv6qbH/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "W7GXjR",
+    "attributes": {
+      "name": "GR8S - Welcome Series",
+      "created": "2025-02-23T11:38:40+00:00",
+      "updated": "2025-02-23T11:39:23+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/W7GXjR/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/W7GXjR/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/W7GXjR/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/W7GXjR/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/W7GXjR/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/W7GXjR/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/W7GXjR/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "WirqLR",
+    "attributes": {
+      "name": "Giveaway Funnel",
+      "created": "2025-09-19T02:19:47+00:00",
+      "updated": "2025-09-19T02:44:35+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/WirqLR/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/WirqLR/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/WirqLR/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/WirqLR/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/WirqLR/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/WirqLR/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/WirqLR/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "XARNm5",
+    "attributes": {
+      "name": "Black Joy Sale",
+      "created": "2026-01-31T01:50:28+00:00",
+      "updated": "2026-01-31T01:50:28+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/XARNm5/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/XARNm5/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/XARNm5/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/XARNm5/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/XARNm5/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/XARNm5/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/XARNm5/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "XUVCMj",
+    "attributes": {
+      "name": "BLS 0802",
+      "created": "2026-02-08T14:46:15+00:00",
+      "updated": "2026-02-08T14:46:15+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/XUVCMj/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/XUVCMj/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/XUVCMj/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/XUVCMj/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/XUVCMj/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/XUVCMj/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/XUVCMj/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "XjxuDY",
+    "attributes": {
+      "name": "Winner 2709",
+      "created": "2025-09-27T15:42:57+00:00",
+      "updated": "2025-09-27T15:42:57+00:00",
+      "opt_in_process": "double_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/XjxuDY/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/XjxuDY/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/XjxuDY/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/XjxuDY/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/XjxuDY/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/XjxuDY/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/XjxuDY/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "Xsyg4K",
+    "attributes": {
+      "name": "BLS joined Feb 02",
+      "created": "2026-02-03T06:40:33+00:00",
+      "updated": "2026-02-03T06:40:33+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Xsyg4K/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/Xsyg4K/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Xsyg4K/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/Xsyg4K/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Xsyg4K/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/Xsyg4K/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/Xsyg4K/"
+    }
+  },
+  {
+    "type": "list",
+    "id": "Y2H7R4",
+    "attributes": {
+      "name": "Slay Friday",
+      "created": "2025-10-14T10:34:18+00:00",
+      "updated": "2025-10-14T10:34:18+00:00",
+      "opt_in_process": "single_opt_in"
+    },
+    "relationships": {
+      "profiles": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Y2H7R4/relationships/profiles/",
+          "related": "https://a.klaviyo.com/api/lists/Y2H7R4/profiles/"
+        }
+      },
+      "tags": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Y2H7R4/relationships/tags/",
+          "related": "https://a.klaviyo.com/api/lists/Y2H7R4/tags/"
+        }
+      },
+      "flow-triggers": {
+        "links": {
+          "self": "https://a.klaviyo.com/api/lists/Y2H7R4/relationships/flow-triggers/",
+          "related": "https://a.klaviyo.com/api/lists/Y2H7R4/flow-triggers/"
+        }
+      }
+    },
+    "links": {
+      "self": "https://a.klaviyo.com/api/lists/Y2H7R4/"
+    }
+  }
+]

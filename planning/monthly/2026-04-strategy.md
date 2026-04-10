@@ -34,9 +34,9 @@
 | **P0: Pre** | Mar 29-31 | Daily | 1/day (story) | HIGH 1x/day | 5% |
 | **P1: Easter** | Apr 1-5 | Teaser → Sale | Teasers (Apr 1-3) + Sale (Apr 4-5) | HIGH daily + HIGH x2-x3 sale days | 15% |
 | **P2: Daily** | Apr 6-11 | Daily stories | 1/day | HIGH daily + NS (Apr 9) + Warmup start (Apr 10) | 10% |
-| **P3: Teaser MD** | Apr 12-18 | MD Teaser sequence | 1 teaser/day (7 emails) | HIGH daily + Warmup REG + MASS teasers | 10% |
-| **P4: SALE MD** | Apr 19-22 | Mother's Day Sale | 1 teaser/sale per day + REG sale emails | ALL segments: REG×5 + HIGH + MASS per day | 50% |
-| **P5: Post** | Apr 23-May 2 | Post-sale daily | 1/day | HIGH daily (48K post-absorb) + occasional MASS/NS | 10% |
+| **P3: Teaser MD** | Apr 12-20 | MD Teaser sequence | 1 teaser/day (9 emails) | HIGH daily + Warmup REG + MASS teasers | 10% |
+| **P4: SALE MD** | Apr 21-23 | Mother's Day Sale | 1 teaser/sale per day + REG sale emails | ALL segments: REG×5 + HIGH + MASS per day | 50% |
+| **P5: Post** | Apr 24-May 2 | Post-sale daily | 1/day | HIGH daily (48K post-absorb) + occasional MASS/NS | 10% |
 
 ---
 
@@ -45,17 +45,17 @@
 | Date(s) | Event | Type | Email Volume | SMS Volume | Products |
 |---------|-------|------|-------------|-----------|----------|
 | Apr 4-5 | Easter Game | Mini-sale (gamified) | 2 emails (Day 1 + Day 2) | HIGH x2 (Day 1) + HIGH x3 (Day 2) | Small Leather Bags, Mini Satchels |
-| Apr 20-22 | Mother's Day Sale | Major sale (3 days) | 3 emails/day (MASS teaser + REG sale) | REG×5 + HIGH + MASS per day | Wallets, Circle Crossbody, Gift Sets |
+| Apr 21-23 | Mother's Day Sale | Major sale (3 days) | 3 emails/day (MASS teaser + REG sale) | REG×5 + HIGH + MASS per day | Wallets, Circle Crossbody, Gift Sets |
 
 ### Pre-Sale Timeline — Mother's Day
 | Phase | Dates | Action |
 |-------|-------|--------|
 | FB Ads start | Apr 10 | $1,600/day → drive registrations |
-| REG warmup | Apr 10-18 | SMS warmup to REG (1K → 16K) |
-| MASS teaser | Apr 12, 15, 17, 19 | Build FOMO on MASS list |
-| Teaser emails | Apr 12-18 | 7 teaser emails (1/day) |
-| SALE | Apr 20-22 | 3-day Mother's Day Sale |
-| Post-sale | Apr 23 | Thank You email + story |
+| REG warmup | Apr 10-20 | SMS warmup to REG (1K → 18K) — 2 extra days |
+| MASS teaser | Apr 12, 15, 17, 19, 20 | Build FOMO on MASS list (5 touches) |
+| Teaser emails | Apr 12-20 | 9 teaser emails (1/day) — 2 extra vs original |
+| SALE | Apr 21-23 | 3-day Mother's Day Sale |
+| Post-sale | Apr 24 | Thank You email + story |
 
 ---
 
@@ -97,13 +97,13 @@
 | Secondary themes | Michelle's World (mother-daughter), Customer Spotlight |
 | Reason | Teasers must build desire for products while keeping story-driven approach |
 
-### Week 17 (Apr 19 - Apr 25) — Phase: P4→P5
+### Week 17 (Apr 19 - Apr 25) — Phase: P3→P4→P5
 
 | Focus | Detail |
 |-------|--------|
-| Primary theme emphasis | Product Story (sale) → Community Win (thank you) |
+| Primary theme emphasis | Product Story (final teasers Apr 19-20) → Sale (Apr 21-23) → Community Win (thank you Apr 24-25) |
 | Secondary themes | Behind the Scenes (warehouse energy), Michelle's World |
-| Reason | Sale days = product-focused. Post-sale = gratitude + human connection |
+| Reason | 2 extra teaser days build more anticipation. Sale Apr 21-23. Post-sale gratitude starts Apr 24 |
 
 ### Week 18 (Apr 26 - May 2) — Phase: P5
 
@@ -213,7 +213,7 @@
 
 | | W14 | W15 | W16 | W17 | W18 | TOTAL |
 |---|---|---|---|---|---|---|
-| Phase | P0→P1 | P1→P2 | P3:Teaser | P4:SALE | P5:Post | |
+| Phase | P0→P1 | P1→P2 | P3:Teaser | P3→P4:SALE→P5 | P5:Post | |
 | Email Sends | ~1.35M | ~1.35M | ~1.35M | ~1.15M | ~1.35M | ~6.55M |
 | SMS HIGH | 210K | 240K | 210K | 120K | 336K | ~1.12M |
 | SMS REG | 0 | 0 | 55K | 270K | 0 | ~325K |
@@ -230,7 +230,7 @@
 - [x] Cultural calendar đã check (Easter, Jackie Robinson, Earth Day, Poetry Month)
 - [x] Theme rotation plan cho 5 tuần
 - [x] Character arcs đã plan (George Easter→MD, Nia cultural, Alice sale panic)
-- [x] Sale dates đã confirm: Easter Game (Apr 4-5), Mother's Day (Apr 20-22)
+- [x] Sale dates đã confirm: Easter Game (Apr 4-5), Mother's Day (Apr 21-23) *(shifted +1 day, Apr 10)*
 - [ ] Story Bank audit done → **🔴 URGENT: cần `/idea-research`**
 - [x] SMS segment strategy + angle rotation planned
 - [x] Products to push: Small Bags, Wallets, Mini Satchels, Circle Crossbody

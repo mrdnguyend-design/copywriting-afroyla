@@ -21,9 +21,9 @@
 |------|--------|------|
 | Klaviyo | $6,240 | Fixed monthly |
 | SMS (estimated) | TBD | Calculated from send plan |
-| FB Ads | $20,000 | Apr 10-22 ($1,600/day) |
+| FB Ads | $30,000 | Apr 10-23 (~$2,143/day × 14 days) |
 | Donate | $0 | TBD |
-| **Total Marketing** | **~$26,240 + SMS** | |
+| **Total Marketing** | **~$36,240 + SMS** | |
 
 ---
 
@@ -218,7 +218,7 @@
 | SMS HIGH | 210K | 240K | 210K | 120K | 336K | ~1.12M |
 | SMS REG | 0 | 0 | 55K | 270K | 0 | ~325K |
 | SMS MASS | 0 | 0 | ~303K | ~294K | 96K | ~693K |
-| FB Ads | $0 | $0 | $9,600 | $6,400 | $0 | $20,000 |
+| FB Ads | $0 | $0 | $12,857 | $12,857 | $4,286 | $30,000 |
 
 > Detail per-day numbers in weekly plan files.
 

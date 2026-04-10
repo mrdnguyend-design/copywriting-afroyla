@@ -14,8 +14,8 @@
 | SMS fee | +2.9% | Multiplier: × 1.029 |
 | Klaviyo | $6,240 | Per month |
 | Klaviyo weekly | ~$1,413 | Approximate weekly cost |
-| FB Ads budget | $1,600 | Per day (when running — Apr 10-22) |
-| FB Ads total | $20,000 | April total budget |
+| FB Ads budget | ~$2,143 | Per day (when running — Apr 10-23) |
+| FB Ads total | $30,000 | April total budget |
 
 ## Email Parameters
 
@@ -103,7 +103,7 @@ Example (MD Sale Day):
 | COGS | Revenue × 35% | |
 | Klaviyo | Fixed | -$6,240 |
 | SMS Cost | Calculated | |
-| FB Ads | Fixed | -$20,000 |
+| FB Ads | Fixed | -$30,000 |
 | Donate | TBD | $0 |
 | Shipping | Revenue × 8% | |
 | **Net Profit** | | |

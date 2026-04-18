@@ -9,6 +9,184 @@
 
 <!-- Entries mới nhất ở trên cùng -->
 
+### 170426 Stranger at the Board (Leon + 1,000 Cap) — "This morning. My warehouse. A man I'd never seen."
+
+- **Type:** Teaser (MD Teaser sequence #6)
+- **Content type:** Campaign Job — PROVE (demand signal + operational scaling + capacity scarcity)
+- **Approach:** "Inbox-first PROVE" — open with 3 raw customer DMs (wallets/Circle Crossbody/mom+me), 3,573 registered as caused-by-you signal, then warehouse story as RESPONSE to demand. New character Leon (seasonal temp) at countdown board. Marcus + Alice enter together. Alice office scene = 1,000 order cap (QC bottleneck + carrier delays = quality over revenue). Private sale + prices reveal in CTA pivot.
+- **Story Source:** Family/Personal (team operational decision) + Customer Voice (inbox DMs as social proof)
+- **Emotional Driver:** Demand velocity + Privileged access — registered reader lands on "I did the right thing"
+- **Idea Source:** User brief Apr 17 — Michelle arriving at warehouse, stranger at countdown board, Alice 1,000-cap decision. Freestyle, not Story Bank R-ID.
+- **Characters:** Michelle (POV, alone at opening), Leon (NEW — seasonal temp, particular/eager), Marcus (intro Leon, short operational delivery), Alice (stakes — 1,000 cap + carrier delay logic + "right call" landing), P.S. Leon callback
+- **Iterations:** 6+
+  - v1 → craft: em dashes 7→3, 3 Tell violations, QC paragraph văn nói, emotional landing reframe (anxiety → privilege)
+  - v2 → user: context block quá corporate, opening ngu, giới thiệu Sale + CTA không tự nhiên (reference teaser_160426)
+  - v3 → user: ngữ cảnh sai — private sale, social proof demand, prices up to 77%/$9.95/$29.95 ALL missing
+  - v4 → user: "dài dòng, lê thê, như văn mẫu corporate" — board ALL CAPS listicle, logic break mid-scene, "here's the thing about this sale" corporate phrase, "For your mom, your sister, yourself" ad copy
+  - v5 → user: logic/nhân vật sai — "Marcus was already there" phá mystery; bảng chỉ có sale name/dates/countdown (không có prices/Private), để Leon ADD registered line
+  - v6 → strategy review: Direction B (inbox-first) — move inbox DMs từ mid-email lên HOOK, warehouse becomes RESPONSE to demand
+- **Review agents used:** craft (5 rounds) + strategy (GOOD BUT STRONGER → Direction B selected) + brand (✅ BRAND SAFE)
+- **What Worked:**
+  - Inbox-first opening = raw customer voices lead (Style Rule #21), PROVE job hits in 5 lines
+  - "Here's what happened at the warehouse this morning because of that" = bridge — reader becomes CAUSE, not audience
+  - "That's how much demand there is" = parenthetical beat after Leon intro, callback to inbox hook
+  - Alice 1,000-cap = Quality-over-Quantity brand value dramatized, not stated
+  - "A Mother's Day gift that arrives the day after Mother's Day is the gift that shows up after the party's already over" = emotional cost of late delivery, concrete
+  - Leon introduced cleanly without violating cast bible — P.S. "Welcome to Afroyla, Leon. 💜"
+  - "The kind of numbers that made Alice go get a second coffee" = Alice character callback + coffee motif + humor
+- **What Changed:**
+  - Context block totally removed — sale info chia ra: partial trên bảng (name/dates/countdown only), prices + private sale reveal in CTA pivot via Michelle's voice
+  - Marcus entrance fixed — không appear first. Marcus + Alice enter TOGETHER after Michelle watches stranger, preserving "who is this guy?" mystery per brief
+  - Board content trimmed to brief spec: only *Early Mother's Day Sale · Apr 21-23* + Days Left + Leon's new registered count line. No prices, no "Private" on board.
+  - Corporate transitions killed: "here's the thing about this sale" → "Which, by the way"; "For your mom, your sister, yourself" = cut entirely
+  - Em dashes: 7 → 3 (header — Apr 21-23 / tomorrow — all three / Which, by the way — this sale)
+  - CTA format matched teaser_160426 spec: "Text MOM to 94923" + "tap below, follow the instructions" + "Click here to join the list" button
+- **Time to Approve:** Nhiều (6+ vòng). Lesson: pre-flight KỸ context elements BEFORE drafting — private sale mechanic, prices, demand signal đều phải trong brief check list cho EVERY teaser (không chỉ assume reader tự hiểu).
+- **Tags:** #md-teaser #customer-voice-lead #inbox-proof #operational-scarcity #private-sale #prices-reveal #leon-new-character #marcus-alice-pair #alice-stakes #1000-cap #qc-bottleneck #shipping-delays #quality-over-revenue #warmup-to-d-day
+
+---
+
+### 160426 Warehouse Party (FB Post) — "LOL we're having a party in the warehouse right now."
+
+- **Type:** Teaser (MD Teaser sequence #5)
+- **Content type:** Campaign Job — PROVE (social proof — returning customers on FB)
+- **Approach:** "Warehouse Party" — open in celebration chaos (Tasha music, Marcus pizza, Alice walkout), reveal reason: FB post about sale, TURN: comments are from RETURNING customers not new ones, gratitude beat, pivot via "Anyway" into private sale mechanic, CTA text MOM to 94923.
+- **Story Source:** Social Media Moment (FB post engagement) — freestyle, not from Story Bank
+- **Emotional Driver:** Joy/Celebration → Belonging (returning customers = community proof)
+- **Idea Source:** User direction Apr 16 — real FB post about Early Mother's Day Sale + returning customer engagement
+- **Characters:** Tasha (social media reveal + music), Marcus (warehouse — box cutter + pizza, silent), Alice (walkout → return, breathing exercises, eating pizza), George (P.S. — "We're on Facebook?"), Nia (mentioned — "did it this morning before breakfast" callback to Piggy Bank email)
+- **Iterations:** 2
+  - v1 → user said craft review fixes "không cần sửa." Requested focus on: fun energy, smooth transitions, remove closing urgency line.
+  - v2 → applied 5 targeted tweaks: "Anyway" transition replacing "---" separator, "Nia did it before breakfast" CTA warmup, "robot is very literal 😂" joke, "That's not even why we threw the party" rewrite, "See you on the list. Bring your mom. 💜" closing. Brand review: "social media girl" → "Tasha" for clarity.
+- **Review agents used:** craft (2 rounds) + strategy (GOOD — STRONG ENOUGH TO SHIP) + brand (✅ BRAND SAFE)
+- **What Worked:**
+  - Warehouse party opening = immediate energy, reader drops into chaos
+  - Alice running gag ("She came back though. She always comes back." + "pretending she's not having fun. But she's eating the pizza. So.") = consistent character comedy
+  - "Anyway" transition = smooth pivot from party scene to private sale mechanic, no separator needed
+  - "The robot running this list is very literal 😂" = PSA-as-joke pattern (continued from Piggy Bank email)
+  - George P.S. "We're on Facebook?" = thematically connected, peak clueless-George
+  - "See you on the list. Bring your mom. 💜" = warm close
+- **What Changed:**
+  - User rejected craft review suggested rewrites (middle section, reader interaction, pivot dialogue) — "mấy chỗ mày chỉ tao thấy ko cần sửa đâu." Lesson: user trusts their own story structure, focus craft review on REQUESTED improvements only.
+  - Removed closing urgency line per user request — "The list closes Tuesday morning..." cut entirely
+  - Transitions were the real craft issue, not content — "---" separator + "Now. One thing." replaced with conversational "Anyway."
+- **Time to Approve:** Nhanh-Trung bình (2 vòng)
+- **Tags:** #md-teaser #warehouse #fb-post #returning-customers #social-proof #private-sale #registration #tasha #marcus #alice #george-ps #nia-callback #smooth-transitions
+
+---
+
+### 150426 Nia Pulled Out Her Piggy Bank — "Nia just handed me $50."
+
+- **Type:** Teaser (MD Teaser sequence #4)
+- **Content type:** Campaign Job — PROVE (family insider proof) + PREPARE (registration mechanic PSA)
+- **Approach:** "Piggy Bank Turn" — cold kitchen open, Nia names Barakaya wallet (callback to successful "Just Blessed" SMS), $50 on counter, Michelle almost covers it (mom-script), TURN: Nia handed the MONEY not the idea, laptop pivot reveals sale in-scene. 4th-wall pause for PSA. Scene return: Nia texts MOM live + Michelle joins list as normal customer. Social proof: 2K/5K goal.
+- **Story Source:** Family/Personal (primary) + Product Origin (Barakaya callback)
+- **Emotional Driver:** Pride → Tenderness (kid becoming a giver) + Affection/Exasperation (reader direct-address)
+- **Idea Source:** User direction Apr 15 + callback to prior "Just Blessed / Barakaya" SMS campaign success. R-014 in Story Bank.
+- **Characters:** Michelle (POV), Nia (main, 10yo voice + wise-beyond-years opening), Alice (off-scene pacing reference only), George's mom (referenced as "Grandma" — neutral, no invented flavor)
+- **Iterations:** 4
+  - v1 → too long, Tell-heavy, moralizing ("Here's what you have to understand…wrong lesson…")
+  - v2 → cut 48%, Show-not-Tell, image inserted mid-scene
+  - v3 → killed top context block (user: "opening quá kỳ dị"), weaved sale info into laptop beat, softened Nia dialogue to 10yo ("I think it's called... Ba-ra-ka-ya?" / "I like that one")
+  - v4 → killed "Nia has free warehouse access" logic flaw (user: "bullshit"), added energy + jokes, added PSA block (Messages app → 94923 → "MOM" only), added 2K/5K social proof, added reader direct-address ("Babes. Sweet angels of mine.")
+- **Review agents used:** craft (4 rounds) + strategy (STRONG DIRECTION verdict — validated PROVE + PREPARE blend as right call for Wed slot given real-world inbox-reply leak) + brand (⚠️ flagged invented "long grace / cold mashed potatoes" grandma flavor → stripped per user per no-fabrication rule)
+- **What Worked:**
+  - User-scripted opening ("You know what I'd tell you every morning if I could?") + "Just Blessed" callback landed as the emotional anchor
+  - Piggy-bank-with-rubber-band physical detail carried the turn
+  - PSA block framed as 4th-wall pause, not corporate footer — "the robot is very literal" joke personified shortcode system
+  - "Alice is not sitting in my email folder with a clipboard. (Although now I'm picturing it and honestly same vibes.)" — self-aware joke softened the reader callout
+  - Social proof placement (2K → 5K goal) after scene close, not before — let story warm reader before asking
+  - Image embedded mid-scene (right after Nia names "Ba-ra-ka-ya") so reader sees wallet at same beat Nia sees it in Michelle's head
+- **What Changed:**
+  - Cut 48% between v1 and v2 — user caught "lê thê, toàn Tell"
+  - Entire top context block deleted in v3 — user said it was "kỳ dị" / bolted-on. Sale info must emerge in-scene naturally.
+  - Nia's dialogue softened to 10yo kid voice in v3 — user said "quá già dặn"
+  - Killed fabricated logic premise in v4 — "Nia could walk into warehouse free" was invented, user called bullshit. Rebuilt turn on: Nia handed me the MONEY, not the idea. Cleaner.
+  - Added registration PSA in v4 — user flagged real business leak: subscribers replying MOM to emails thinking it registers them. Shortcode 94923 + "one word only" + troubleshoot.
+  - Stripped "says grace so long the mashed potatoes go cold" grandma detail per brand review — invented flavor not in cast bible, no-fabrication rule
+- **Time to Approve:** Nhiều (4 vòng)
+- **Tags:** #md-teaser #nia #barakaya #family-personal #psa-mechanic #inbox-reply-leak #show-dont-tell #logic-flaw-fix #no-fabrication
+
+---
+
+### 140426 The Photo on Keisha's Desk — "There was a photo on Keisha's desk."
+
+- **Type:** Teaser (MD Teaser sequence #3)
+- **Content type:** Campaign Job — PROVE (social proof via customer review + team tenderness)
+- **Approach:** "The Frame First" — cold-open BTS workshop scene, object-mystery (framed photo), Keisha deadpan dialogue, raw review verbatim, double plot twist (FRAMED not saved + Baldisa $29.95 reveal), canvas-promise count mechanic (1,047/5,000 registrations = 100cm canvas hung behind Keisha)
+- **Story Source:** Customer Voice + Product Origin + Behind the Scenes
+- **Emotional Driver:** Pride + Belonging + team tenderness
+- **Idea Source:** TrustPilot review "Bald & Bougie" (Apr 11, 2026) forwarded by user during `/idea-research`, + story bank R-013
+- **Characters:** Michelle (POV), Keisha (quiet framing gesture — intentional contrast to canonical loud Keisha), Alice (P.S. mention), Jennifer from Support (off-screen NPC), Bald & Bougie (real customer)
+- **Segment:** MASS (~193,000)
+- **Image embed:** Yes — framed photo on Keisha's workbench (leather rolls, thread spools, sewing machine bg)
+- **Iterations:** 3 rounds — (1) initial draft with full photo description, (2) craft review cut 38% of words + flagged TELL lines, (3) brand review caught PRIVATE SALE vs "early access" terminology bug + shortcode number missing (94923)
+- **Review agents used:** craft (2 rounds) + brand
+- **What Worked:**
+  - Object-mystery opening ("There was a photo on Keisha's desk I had never seen before") — reader forced downstream by curiosity
+  - Embedded image replaced 100+ words of description — image carries visual, text carries scene
+  - Double plot twist structure held the email together: (1) FRAMED reveal at middle, (2) Baldisa $29.95 at end
+  - Canvas-promise mechanic (5K registrations = 100cm canvas hung behind Keisha) converted the registration CTA from passive to ACTIVE stake — reader becomes co-conspirator in Michelle's promise to Keisha
+  - Quiet Keisha beat earned its keep as character TURN (vs canonical loud Keisha)
+  - "Some reviews you read. Some reviews you frame." — throughline landed in 2 short lines
+- **What Changed:**
+  - Draft 1 (~790 words) → Draft 2 (~490 words). 38% cut driven by: photo description removal (image embed replaces it), TELL commentary removal ("stared too long", "stood longer than I should", "the way you put something back when..."), opening bloat trim ("I had a list. I had opinions. I was ready." cut entirely)
+  - Terminology bug: "Early Mother's Day Sale" / "early access before public" → "Private sale, registered list only." Fundamental factual error — sale is private, not pre-launch. Caught by brand review.
+  - CTA bug: "Text MOM" missing shortcode number → "Text MOM to 94923" (×3 mentions). Caught by user during craft review.
+  - Sale info insufficient for cold reader → added full lineup block at CTA (wallets from $9.95, Circle Crossbody, Gift Sets, Heritage Tote, Baridi, Baldisa, under-100-in-stock signal)
+- **Time to Approve:** Trung bình (3 rounds)
+- **Tags:** #teaser #md-sale #customer-voice #bts #keisha #baldisa #canvas-promise #private-sale #plot-twist #image-embed
+
+---
+
+### 130426 The Lunch Table Confessional — "What's the weirdest gift you ever gave your mom?"
+
+- **Type:** Teaser (MD Teaser sequence)
+- **Content type:** Campaign Job — TEASER (Seinfeld Moment + Michelle's World)
+- **Approach:** "The Lunch Table Confessional" — Office sitcom. Lunchtime, Michelle asks team about weirdest Mother's Day gift. Marcus (coupon book), Alice (bankrupt stock), Tasha (gym membership) share stories. Each mom KEPT the gift. Pivot: they grade the intention, not the gift. $20 = enough for MD Sale.
+- **Story Source:** Office ensemble scene — fictional but grounded in real internet research (Reddit r/AskReddit + Bored Panda worst gifts)
+- **Emotional Driver:** Humor → Warmth — comedy to wholesome pivot
+- **Idea Source:** Story Bank C-011 (developed from Reddit thread "Moms of Reddit: What do you actually want for Mother's Day?" + Bored Panda "Worst Mother's Day Gifts" + user direction for office sitcom format)
+- **Characters:** Marcus (coupon book, rare long speech = TURN), Alice (bankrupt stock, "Why? You bought it for me."), Tasha (gym membership, lobby reading room), Michelle (narrator + $18 bracelet story + wholesome pivot). P.S.: Marcus calling mom.
+- **Iterations:** 2 versions. V1 (scene-first opening, no context block upfront, Michelle's bracelet in P.S.) → V2 (question-first opening per user direction, context block + CTA drop early then "back to lunch", Michelle's bracelet moved to body, $20 bridge to sale)
+- **Review agents used:** craft (2x — PATCH V1→V2, then Ben/Daniel rhythm review), brand (BRAND SAFE)
+- **What Worked:** Office sitcom format — multiple characters, fast dialogue, comedy pacing. "They don't grade the gift. They grade the intention." — throughline landing. Marcus rare speech as scene opener — broke character expectations. Alice's "Why? You bought it for me." — quiet emotional hit. $18 bracelet Ziploc bag "Michelle's bracelet — 1993" — strongest emotional beat. P.S. Marcus calling mom — bookend.
+- **What Changed:** (1) User directed: George NOT in email — George doesn't work at office. Removed George entirely. (2) User directed: open with question directly, not scene-setting. (3) User directed: context = morning team meeting about MD Sale, CTA drop early, "back to lunch." (4) User directed: Michelle's own gift story must be in body with $20 detail (all the money she had), bridge to $20 buys 2 things in sale. (5) Craft review (Ben): "But let me back up" + "buzzing about it" + "Now. Back to lunch." = 3 transitions in 10 lines, flow breaks. (6) Craft review (Daniel): 3 stories same rhythm pattern = echo structure. Tasha should be shortest. "Coffee almost came out my nose" = sitcom catchphrase, not Michelle. Landing echo writing ("every single" 2x). P.S. "Some moments you just let be" = fortune cookie. (7) User chose V2 over V3 patches.
+- **Time to Approve:** Trung bình (5 brainstorm approaches → V1 → craft patch → V2 → Ben/Daniel review → user chose V2)
+- **Tags:** #teaser #mothers-day #office-sitcom #seinfeld-moment #ensemble-cast #marcus #alice #tasha #coupon-book #bankrupt-stock #gym-membership #bracelet-1993 #ziploc-bag #text-mom #budget-friendly #C-011
+
+### 110426 What's In My Bag — "I've watched over 100 of these videos."
+
+- **Type:** Daily + MD Teaser (soft)
+- **Content type:** Daily Story Source — Seinfeld Moment + MD Sale Tease
+- **Approach:** "The TikTok Rabbit Hole" — Michelle binge-watches "what's in my bag" TikToks (research), notices pattern: bigger bag = more junk. Observation expands to life. Tiny crossbody woman = TURN. Pivot: Michelle pulls up small bags on own site, still in pajamas. MD sale tease organic.
+- **Story Source:** Internet culture (TikTok "what's in my bag" trend — real, verifiable) adapted as Michelle's Saturday morning experience
+- **Emotional Driver:** Self-awareness + lightness — "enough" as a choice, not a limitation
+- **Idea Source:** TikTok "what's in my bag" video trend + Jennifer Garner viral video (8 bags of nuts) as initial research seed. User directed: no specific names, just the trend itself.
+- **Characters:** Michelle (main — couch, pajamas, cold coffee, TikTok binge), George (P.S. — "market research" deadpan exchange + "making eggs" scene detail)
+- **Iterations:** 4 versions. v1 (too long, too philosophical, hook wrong) → v2 (rewrite: shorter, văn nói, hook fixed) → v3 (restore "empty pocket is invitation" insight block per user) → v4 (pivot fix: remove separator + product listicle, products flow in scene)
+- **Review agents used:** craft (REWRITE) / strategy (PATCH pivot) / brand (BRAND SAFE)
+- **What Worked:** "An empty pocket is an invitation. A zipper compartment is a dare." — user specifically asked to keep + develop this block. "That woman is running a public utility out of her handbag." — humor lands. "Maybe the small bags aren't small. Maybe I just never let myself carry less." — throughline landing. Product links in scene (Michelle on couch pulling up site, George making eggs) — seamless pivot. "No room for a fork from Chipotle. No room for three chargers." — callback to story examples = product section IS story.
+- **What Changed:** (1) CRITICAL: User rejected first story approach (Reddit "seats are for butts not bags" — train seat etiquette). User: "cái túi xứng đáng là 1 quan điểm bullshit." Forced complete story source change. (2) User directed: story must be based on real internet content, no fabrication. Found TikTok trend. (3) User directed: don't name specific people (Jennifer Garner). Just the trend. (4) User directed: hook must open with "I've watched over 100 videos..." not elaborate morning setup. (5) Craft review: v1 too long (~650 words), too much TELL ("empty space makes us nervous"), too many philosophy layers. REWRITE to ~450 words, văn nói, skim-friendly. (6) User asked to restore "empty pocket is invitation" block that craft review had cut — user saw it as email's core interesting insight. (7) Strategy review: pivot not smooth — separator "---" + product listicle broke scene. Patched: products flow in Michelle's couch scene, MD tease grows from "I think these might need to be part of..."
+- **Time to Approve:** Trung bình (4 versions, 1 rewrite, 1 strategy patch — but clear direction from user at each step)
+- **Tags:** #seinfeld-moment #tiktok #whats-in-my-bag #small-bags #mini-satchels #circle-bags #mothers-day-teaser #text-mom #george-ps #saturday #pivot-in-scene #no-fabrication #internet-culture
+
+### 100426 Generous or Polite — "Sometimes I think I'm generous. I'm not sure anymore."
+
+- **Type:** Teaser (Pre-teaser #0 — Mother's Day)
+- **Content type:** Customer Voice + MD Teaser Warmup (ANNOUNCE soft)
+- **Approach:** "She Didn't Answer My Question" — Michelle confession ("generous vs polite"), customer reply to Apr 8 email as centerpiece, self-reflection on gap between caring and acting, soft MD sale CTA (text MOM to 94923)
+- **Story Source:** Customer Voice (Reddit thread curated as Afroyla customer reply to Apr 8 Jovita email)
+- **Emotional Driver:** Self-reflection + Admiration — "khi sự quan tâm đủ lớn, hành động tự đến"
+- **Idea Source:** Reddit thread (curated) — woman buys BFF first class ticket, wheelchair assistance, lounge access. Framed as reply to Apr 8 "who are you buying for?" CTA
+- **Characters:** Michelle only (George resting after 3 consecutive P.S. appearances Apr 6/8/9). "Tanya" — one-time mention, Michelle's real friend, not Afroyla cast.
+- **Iterations:** 1 direction chosen from 5 brainstormed. 3 patches from craft review. Strategy + brand reviews clean.
+- **Review agents used:** craft (PATCH — 3 fixes) / strategy (good but can be stronger) / brand (brand safe)
+- **What Worked:** "generous vs polite" confession hook — user-directed, immediate vulnerability. Raw customer paste giữ nguyên, không clean up. "I got to the end and scrolled back up. Not because I missed something. Because I wasn't done feeling it." — replaced "I read it twice" (which was identical to Apr 8). "That's not impulse. That's love that's been sitting there for 11 years" — throughline landing. Text MOM CTA with step-by-step instructions ("Open your phone. Open your messages.") — friend telling friend, not brand blast. PS Tanya — grounding confession, no George, thematic match.
+- **What Changed:** (1) CRITICAL: User redirected angle — original draft used "tự do làm điều mình thích" (freedom/spontaneity). User corrected: throughline = "khi sự quan tâm đủ lớn, hành động tự đến" (when love is strong enough, action follows). Not about freedom — about love as catalyst. (2) Craft review caught "I read it twice / first time / second time" — EXACT same device from Apr 8. Replaced with "scrolled back up." (3) Craft review caught CTA priority wrong — Reply CTA was primary (lặp Apr 8), text MOM was afterthought. Reversed: text MOM = primary, reply CTA removed entirely. (4) User cut customer question section ("When did it hit you...") — competing CTA + angle mismatch ("spontaneously do whatever makes you happy" ≠ throughline). (5) Strategy review suggested "bridge to mother" — user rejected: "Mother's Day có thể tặng bạn, tặng vợ, tặng chị em — phụ nữ thì đều được." No bridge needed. (6) User reclassified email from Daily → Teaser. (7) User directed: soft CTA collection = MAMA (not Wallets). Bỏ "Don't buy yet. Just look." — quá prescriptive.
+- **Time to Approve:** Trung bình (5 brainstorm approaches → 1 chosen → angle correction → 3 craft patches → strategy adjustment → brand clean)
+- **Tags:** #teaser #mothers-day #pre-teaser #customer-voice #reddit-curated #confession #generous-vs-polite #text-mom #mama-collection #no-george #love-as-action #angle-correction
+
 ### 080426 Her Daughter Just Started Over — "Her daughter just started over."
 
 - **Type:** Daily

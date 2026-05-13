@@ -37,12 +37,16 @@ Read these files BEFORE any writing task:
 | File | When to Read |
 |------|-------------|
 | `knowledge/core/theme-rotation-matrix.md` | Weekly/daily planning — 8 themes + rotation rules |
-| `knowledge/core/story-bank.md` | Daily brief — pick READY stories |
+| `knowledge/core/story-bank.md` | Daily brief — pick READY stories (skip CAMPAIGN-RESERVED) |
 | `knowledge/core/revenue-config.md` | Monthly/weekly planning — RPS rates, cost params |
 | `knowledge/core/monthly-strategy-template.md` | Monthly strategy creation |
 | `knowledge/core/performance-tracking.md` | Performance review, strategy feedback |
+| `knowledge/core/campaign-playbook.md` | Promotion sprint OS — read before `/campaign-plan` |
+| `knowledge/core/campaign-master-template.md` | Living doc skeleton — copied per campaign |
+| `planning/campaigns/mechanic-history.md` | Cross-campaign mechanic tracker — enforce novelty |
 | `planning/monthly/` | Current month's strategy |
 | `planning/weekly/` | Current week's content calendar |
+| `planning/campaigns/` | Active + closed campaign living docs (1 file/campaign) |
 
 ### Learning & Feedback
 | File | When to Read |
@@ -61,6 +65,8 @@ Read these files BEFORE any writing task:
 | `/write-sms` | Write SMS flash deal (10 angles) | `.agent/workflows/write-sms.md` |
 | `/weekly-plan` | Create 7-day content calendar + revenue projection | `.agent/workflows/weekly-planning.md` |
 | `/monthly-strategy` | Create monthly strategy with P&L | `.agent/workflows/monthly-strategy.md` |
+| `/campaign-plan` | **Kick-off promotion sprint (T-20).** Create living doc + fill 4 phase plans (Strategy/Brief/Teaser/Warmup) with novelty audit gate | `.agent/workflows/campaign-plan.md` |
+| `/campaign-postmortem` | **Close sprint (T+3).** Fill Section 8 + propagate learnings to mechanic-history, post-mortems, performance-tracking | `.agent/workflows/campaign-postmortem.md` |
 | `/idea-research` | Replenish Story Bank (harvest + develop ideas) | `.agent/workflows/idea-research.md` |
 | `/story-bank` | View, add, develop Story Bank items | `.agent/workflows/story-bank.md` |
 | `/proofread` | Audit email using Daniel Throssell framework | `.agent/workflows/proofread-email.md` |
@@ -95,6 +101,16 @@ When user opens a session without specific command:
 - **SMS:** `sms_[DDMMYY]_[segment]_[short_name].md` — e.g., `sms_290326_highengage_zuriya.md`
 - **Weekly plans:** `planning/weekly/week-[YYYY-WW].md` — e.g., `week-2026-14.md`
 - **Monthly strategies:** `planning/monthly/[YYYY-MM]-strategy.md` — e.g., `2026-04-strategy.md`
+- **Campaign living docs:** `planning/campaigns/[YYYY-MM]-[slug].md` — e.g., `2026-04-mothers-day-sale.md`
+- **Campaign drafts folders:** `planning/campaigns/[YYYY-MM]-[slug]-drafts/` — chứa email/SMS drafts của campaign
+
+## Campaign Sprint Mode
+
+Khi 1 campaign đang trong window T-10 → T+3 (Status: STRATEGY-LOCKED hoặc EXECUTING):
+- `/daily-brief` tự động detect (Step 0.5) → load campaign Section 4/5/6 thay vì random Story Bank pick
+- Story Bank items đã CAMPAIGN-RESERVED không được pick cho daily content
+- Mọi thay đổi sequence/copy phải log vào campaign Section 7 Decision Log (timestamped)
+- Không được mở campaign mới (`/campaign-plan`) cho đến khi campaign hiện tại Status = CLOSED (qua `/campaign-postmortem`)
 
 ## Audience Segments
 
